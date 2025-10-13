@@ -1,24 +1,29 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Meadow | Practical AI for Operations",
+  description:
+    "Meadow builds AI roadmaps and automation pilots for $500k–$10M revenue operators, turning manual workflows into governed, measurable wins.",
 };
 
-import PageIllustration from "@/components/page-illustration";
-import Hero from "@/components/hero-home";
-import Workflows from "@/components/workflows";
-import Features from "@/components/features";
-import Testimonials from "@/components/testimonials";
-import Cta from "@/components/cta";
+import MeadowHero from "@/components/meadow/hero";
+import MeadowTrustBar from "@/components/meadow/trust-bar";
+import MeadowValueProps from "@/components/meadow/value-props";
+import MeadowEngagementSteps from "@/components/meadow/engagement-steps";
+import MeadowChatCta from "@/components/meadow/chat-cta";
+import MeadowResources from "@/components/meadow/resources";
+import MeadowTestimonials from "@/components/meadow/testimonials";
+import MeadowFinalCta from "@/components/meadow/final-cta";
 
 export default function Home() {
   return (
     <>
-      <PageIllustration />
-      <Hero />
-      <Workflows />
-      <Features />
-      <Testimonials />
-      <Cta />
+      <MeadowHero />
+      <MeadowTrustBar />
+      <MeadowValueProps />
+      <MeadowEngagementSteps />
+      <MeadowChatCta />
+      <MeadowResources />
+      <MeadowTestimonials />
+      <MeadowFinalCta />
     </>
   );
 }

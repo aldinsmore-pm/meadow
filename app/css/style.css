@@ -74,6 +74,28 @@
   }
 }
 
+@layer base {
+  :root {
+    --meadow-primary: 31 122 86;
+    --meadow-accent: 126 194 127;
+    --meadow-ink: 14 30 23;
+    --meadow-muted: 235 245 239;
+    --meadow-warn: 245 190 73;
+
+    --bg: 255 255 255;
+    --fg: var(--meadow-ink);
+    --primary: var(--meadow-primary);
+    --accent: var(--meadow-accent);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: 12 14 14;
+      --fg: 240 245 241;
+    }
+  }
+}
+
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
