@@ -7,12 +7,14 @@ export const metadata = {
 import MeadowHero from "@/components/meadow/hero";
 import MeadowTrustBar from "@/components/meadow/trust-bar";
 import MeadowValueProps from "@/components/meadow/value-props";
+import MeadowCaseStudies from "@/components/meadow/case-studies";
 import MeadowEngagementSteps from "@/components/meadow/engagement-steps";
 import MeadowChatCta from "@/components/meadow/chat-cta";
 import MeadowRoadmapOverview from "@/components/meadow/roadmap-overview";
 import MeadowRoiCalculator from "@/components/meadow/roi-calculator";
 import MeadowResources from "@/components/meadow/resources";
 import MeadowTestimonials from "@/components/meadow/testimonials";
+import MeadowFaq from "@/components/meadow/faq";
 import MeadowFinalCta from "@/components/meadow/final-cta";
 
 export default function Home() {
@@ -21,12 +23,14 @@ export default function Home() {
       <MeadowHero />
       <MeadowTrustBar />
       <MeadowValueProps />
+      <MeadowCaseStudies />
       <MeadowEngagementSteps />
       <MeadowRoadmapOverview />
       <MeadowChatCta />
       <MeadowRoiCalculator />
       <MeadowResources />
       <MeadowTestimonials />
+      <MeadowFaq />
       <MeadowFinalCta />
     </>
   );
