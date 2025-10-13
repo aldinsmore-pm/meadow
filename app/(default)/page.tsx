@@ -9,6 +9,8 @@ import MeadowTrustBar from "@/components/meadow/trust-bar";
 import MeadowValueProps from "@/components/meadow/value-props";
 import MeadowEngagementSteps from "@/components/meadow/engagement-steps";
 import MeadowChatCta from "@/components/meadow/chat-cta";
+import MeadowRoadmapOverview from "@/components/meadow/roadmap-overview";
+import MeadowRoiCalculator from "@/components/meadow/roi-calculator";
 import MeadowResources from "@/components/meadow/resources";
 import MeadowTestimonials from "@/components/meadow/testimonials";
 import MeadowFinalCta from "@/components/meadow/final-cta";
@@ -20,7 +22,9 @@ export default function Home() {
       <MeadowTrustBar />
       <MeadowValueProps />
       <MeadowEngagementSteps />
+      <MeadowRoadmapOverview />
       <MeadowChatCta />
+      <MeadowRoiCalculator />
       <MeadowResources />
       <MeadowTestimonials />
       <MeadowFinalCta />
