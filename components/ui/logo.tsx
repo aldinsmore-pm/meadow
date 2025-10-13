@@ -4,8 +4,9 @@ import logo from "@/public/images/logo.svg";
 
 export default function Logo() {
   return (
-    <Link href="/" className="inline-flex shrink-0" aria-label="Cruip">
-      <Image src={logo} alt="Cruip Logo" width={32} height={32} />
+    <Link href="/" className="inline-flex items-center gap-2" aria-label="Meadow home">
+      <Image src={logo} alt="Meadow logo" width={32} height={32} />
+      <span className="text-lg font-semibold tracking-tight text-[rgb(var(--meadow-ink))]">Meadow</span>
     </Link>
   );
 }
