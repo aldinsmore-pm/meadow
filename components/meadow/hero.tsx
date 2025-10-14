@@ -22,10 +22,10 @@ export default function MeadowHero() {
               </span>
             </div>
             <h1 className="heading-serif text-balance text-4xl font-semibold leading-tight text-[rgb(var(--meadow-ink))] sm:text-5xl md:text-6xl">
-              Drowning in repetitive tasks while your business suffers?
+              Spending too much time on repetitive tasks instead of growing your business?
             </h1>
             <p className="max-w-xl text-lg text-[rgb(var(--meadow-ink)/0.78)]">
-              You started this business to build something, not to spend 12-hour days chasing invoices and updating spreadsheets. Meadow shows you exactly which tasks are eating your life—and helps you automate them in weeks so you can finally breathe again.
+              You started this business to build something, not to spend 12-hour days chasing invoices and updating spreadsheets. Meadow shows you exactly which tasks are consuming your time—and helps you automate them in weeks so you can focus on what matters.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link

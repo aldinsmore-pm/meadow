@@ -40,7 +40,7 @@ export default function MeadowTestimonials() {
             "I was on the edge of burnout. Now I'm not."
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.7)]">
-            These owners were at breaking point—exhausted, stressed, relationships suffering. Here's what they say about life after getting their time back.
+            These owners were stretched thin—working late nights, missing family time, feeling overwhelmed. Here's what they say about life after getting their time back.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

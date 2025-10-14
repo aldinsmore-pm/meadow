@@ -25,7 +25,7 @@ export default function MeadowChatCta() {
               Hate sales calls? Start here instead
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Answer a few questions about your weekly grind. Get instant time-savings ideas with real numbers—no pressure, no sales pitch, no one calling you. See what's possible, then decide.
+              Answer a few questions about your typical week. Get instant time-savings ideas with real numbers—no pressure, no sales pitch, no one calling you. See what's possible, then decide.
             </p>
             <Link
               href="#book-ai-roadmap"

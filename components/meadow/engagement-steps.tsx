@@ -1,9 +1,9 @@
 const steps = [
   {
-    title: "Tell us what's killing you (90 minutes)",
+    title: "Map your typical week (90 minutes)",
     description:
-      "You walk us through a typical week—the late nights, the tasks you hate, the stuff you can't delegate. We identify the top 3 time-vampires bleeding your schedule dry.",
-    deliverable: "Know exactly what to attack first",
+      "You walk us through a typical week—the late nights, the tasks you're stuck doing, the processes that need attention. We identify the top 3 tasks consuming most of your schedule.",
+    deliverable: "Know exactly what to prioritize first",
   },
   {
     title: "Get your escape plan (48 hours later)",
@@ -26,7 +26,7 @@ export default function MeadowEngagementSteps() {
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              From first call to getting your life back: under 3 weeks
+              From first call to reclaiming your time: under 3 weeks
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
               No six-month projects or endless consultants. We move fast because we know you're already stretched too thin. Here's exactly what happens.

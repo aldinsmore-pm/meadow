@@ -4,7 +4,7 @@ const caseStudies = [
     sector: "Accounting Firm",
     headline: "\"I was working until 9pm every night. Now I'm home for dinner.\"",
     summary:
-      "Sasha was drowning in a 3-week invoice backlog, missing her kids' bedtimes. We automated vendor intake and invoice coding in 18 days. Now she leaves at 5pm and the work still gets done.",
+      "Sasha was buried in a 3-week invoice backlog, missing her kids' bedtimes. We automated vendor intake and invoice coding in 18 days. Now she leaves at 5pm and the work still gets done.",
     metrics: [
       { label: "Time reclaimed", value: "80 hrs/mo" },
       { label: "Left office by 5pm", value: "Every day" },
@@ -14,7 +14,7 @@ const caseStudies = [
   {
     company: "Atlas Clinics",
     sector: "Healthcare Practice",
-    headline: "\"Staff stopped complaining about the paperwork nightmare\"",
+    headline: "\"Staff stopped complaining about the paperwork burden\"",
     summary:
       "Prior authorizations were taking 2 days—delaying patient care and burning out staff. Now it's 6 hours, nurses only review exceptions, and patient satisfaction scores jumped.",
     metrics: [

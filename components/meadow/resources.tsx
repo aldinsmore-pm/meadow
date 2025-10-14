@@ -28,7 +28,7 @@ export default function MeadowResources() {
               Not ready to commit? Take these for free
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Tools and guides from business owners who were exactly where you are—drowning in busywork. See how they broke free. No email signup, no strings.
+              Tools and guides from business owners who were exactly where you are—overwhelmed by repetitive tasks. See how they created more space in their schedule. No email signup, no strings.
             </p>
             <Link
               href="mailto:hello@meadow.ai"

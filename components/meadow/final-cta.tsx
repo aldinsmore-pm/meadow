@@ -12,17 +12,17 @@ export default function MeadowFinalCta() {
               Free time-back plan
             </span>
             <h2 className="heading-serif text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              How many more weeks will you work until 9pm?
+              Ready to reclaim your evenings?
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.72)]">
-              Book your free Time-Back Plan now. In 90 minutes, you'll know exactly which tasks are destroying your schedule—and have a plan to reclaim 10–20 hours every week starting this month.
+              Book your free Time-Back Plan now. In 90 minutes, you'll know exactly which tasks are consuming your schedule—and have a clear plan to reclaim 10–20 hours every week starting this month.
             </p>
             <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
               <Link
                 href="https://cal.com"
                 className="inline-flex items-center justify-center rounded-md border-2 border-[rgb(var(--meadow-primary-dark))] bg-[rgb(var(--meadow-primary))] px-7 py-3 text-base font-semibold text-white shadow-lg shadow-[rgba(var(--meadow-primary-dark)/0.25)] transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary-dark))]"
               >
-                Yes, I want my life back
+                Book my free session
               </Link>
               <Link
                 href="#start-chat"

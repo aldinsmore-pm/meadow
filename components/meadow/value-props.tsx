@@ -28,7 +28,7 @@ export default function MeadowValueProps() {
             Tired of being the bottleneck in your own business?
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.72)]">
-            Every hour you spend on busywork is an hour you can't spend growing. We'll show you which tasks to automate first—the ones bleeding you dry—and help you fix them fast.
+            Every hour you spend on busywork is an hour you can't spend growing. We'll show you which tasks to automate first—the ones consuming most of your time—and help you fix them fast.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2">
