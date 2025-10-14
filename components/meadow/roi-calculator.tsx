@@ -94,10 +94,10 @@ export default function MeadowRoiCalculator() {
               See what you could save
             </span>
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              Calculate your time and money back
+              What's one repetitive task costing you right now?
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Adjust the numbers below to see how much time and money you could save by fixing one repetitive task. We'll walk through the same calculation together during your free Time-Back Plan session.
+              Pick any soul-crushing task you do every week. Plug in the numbers below and watch the calculator show you exactly how much of your life you're wasting. Then imagine getting that time back.
             </p>
             <div className="grid gap-3 sm:grid-cols-3">
               {presets.map((preset) => (

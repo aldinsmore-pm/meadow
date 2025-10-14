@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Meadow | Get Your Time Back",
+  title: "Stop Working Until 9pm | Meadow Time-Back Plan",
   description:
-    "Meadow helps small business owners stop wasting hours on repetitive tasks. Get a clear plan to save time, reduce costs, and finally work ON your business, not IN it.",
+    "Drowning in repetitive tasks? Reclaim 10-20 hours every week. Free plan shows exactly which tasks are destroying your schedule—and how to fix them in weeks.",
 };
 
 import MeadowHero from "@/components/meadow/hero";

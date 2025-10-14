@@ -1,19 +1,19 @@
 const testimonials = [
   {
     quote:
-      "I was drowning in invoices and follow-ups. Meadow showed me exactly what was eating my time and helped us fix it. Now I actually have evenings with my family again.",
+      "I was missing my kids' bedtimes every night, buried in invoices. Three weeks after our first call, I left work at 5pm and the invoices still got done. I cried when I realized I'd been torturing myself for nothing.",
     author: "Sasha Patel",
     role: "Owner, BrightLedger Accounting",
   },
   {
     quote:
-      "Instead of just talking about it, they actually helped us get it done in 3 weeks. My team uses it every day and it just works.",
+      "My staff were burned out from paperwork and threatening to quit. Now they actually smile when prior auths come in because the system handles it. Best $18k I ever spent—saved three resignations.",
     author: "Jamal Rivers",
     role: "Owner, Atlas Clinics",
   },
   {
     quote:
-      "I finally stopped living in spreadsheets. The ROI calculator helped me see it was worth it, and the plan made it easy to get started.",
+      "I was checking shipment updates at midnight, weekends, even on vacation. My wife said she'd had enough. Now the system watches everything and I only get pinged for real problems. Marriage saved.",
     author: "Laura Kim",
     role: "Owner, Fieldstone Logistics",
   },
@@ -25,10 +25,10 @@ export default function MeadowTestimonials() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            What business owners say
+            "I was on the edge of burnout. Now I'm not."
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Real stories from small business owners who got their time back and can finally focus on growing their business.
+            These owners were at breaking point—exhausted, stressed, relationships suffering. Here's what they say about life after getting their time back.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

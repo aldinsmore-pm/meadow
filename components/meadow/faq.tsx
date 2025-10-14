@@ -35,10 +35,10 @@ export default function MeadowFaq() {
             Questions?
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Common questions from business owners
+            "Sounds too good to be true. What's the catch?"
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Don't see your question here? Email us at <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:hello@meadow.ai">hello@meadow.ai</a> and we'll get back to you quickly.
+            No catch. Just answers to what every skeptical (smart) business owner asks. Still unsure? Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:hello@meadow.ai">hello@meadow.ai</a> and we'll talk.
           </p>
         </div>
         <div className="mt-12 space-y-4">

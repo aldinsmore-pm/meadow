@@ -1,18 +1,18 @@
 const valueProps = [
   {
-    title: "Get your time back without the complexity",
+    title: "See exactly what's stealing your life",
     description:
-      "We show you exactly how many hours you'll save and what it will cost—no tech jargon, just clear numbers. You'll know if it makes sense before spending a penny.",
+      "No more guessing which tasks waste the most time. We'll show you in dollars and hours exactly what each repetitive task costs you—so you know what to fix first.",
   },
   {
-    title: "Works with the tools you already have",
+    title: "No expensive overhauls or months of implementation",
     description:
-      "From QuickBooks to whatever software runs your business, we build solutions that work with your existing setup. No ripping and replacing everything.",
+      "Works with QuickBooks, your spreadsheets, whatever you use today. No ripping out systems or spending six months on 'digital transformation.' Just fast relief.",
   },
   {
-    title: "Your team will actually use it",
+    title: "Zero resistance from your team",
     description:
-      "We train your people and make the transition smooth. They'll feel supported and empowered, not threatened or confused.",
+      "Your staff won't fight this because we make it ridiculously simple. They'll wonder why you didn't do it sooner—because they get their time back too.",
   },
 ];
 
@@ -25,10 +25,10 @@ export default function MeadowValueProps() {
             How we help
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Finally stop doing everything yourself
+            Tired of being the bottleneck in your own business?
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            We find the tasks eating your time and help you solve them—starting with the biggest time-wasters first, so you can focus on growing your business.
+            Every hour you spend on busywork is an hour you can't spend growing. We'll show you which tasks to automate first—the ones bleeding you dry—and help you fix them fast.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2">

@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const highlights = [
-  "Eliminate hours of repetitive work every week",
-  "See exactly what you'll save in time and money",
-  "Start saving time in weeks, not months",
+  "Reclaim 10-20 hours every week",
+  "Stop working nights and weekends",
+  "Finally have time to grow your business",
 ];
 
 export default function MeadowHero() {
@@ -17,23 +17,23 @@ export default function MeadowHero() {
               For Small Business Owners
             </div>
             <h1 className="text-balance text-4xl font-semibold leading-tight text-[rgb(var(--meadow-ink))] sm:text-5xl md:text-6xl">
-              Stop wasting hours on tasks that should run themselves
+              Drowning in repetitive tasks while your business suffers?
             </h1>
             <p className="max-w-xl text-lg text-[rgb(var(--meadow-ink)/0.8)]">
-              Meadow helps small business owners identify the repetitive tasks stealing your time, shows you exactly what they're costing, and helps you set up simple solutions your team will actually use—so you can finally work ON your business instead of IN it.
+              You started this business to build something, not to spend 12-hour days chasing invoices and updating spreadsheets. Meadow shows you exactly which tasks are eating your life—and helps you automate them in weeks so you can finally breathe again.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link
                 href="#book-ai-roadmap"
                 className="inline-flex items-center justify-center rounded-full bg-[rgb(var(--meadow-primary))] px-6 py-3 text-base font-semibold text-white shadow-lg shadow-[rgba(var(--meadow-primary)/0.3)] transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary))]/90"
               >
-                Get your free Time-Back Plan
+                Show me what I'm losing
               </Link>
               <Link
                 href="#start-chat"
                 className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.2)] bg-white px-6 py-3 text-base font-semibold text-[rgb(var(--meadow-ink))] transition hover:border-[rgba(var(--meadow-primary)/0.5)] hover:bg-[rgba(var(--meadow-muted)/0.6)]"
               >
-                See how much time you could save
+                Calculate my time back
               </Link>
             </div>
             <ul className="grid gap-3 text-sm text-[rgb(var(--meadow-ink)/0.75)] sm:grid-cols-3">
@@ -66,16 +66,16 @@ export default function MeadowHero() {
               </div>
               <dl className="mt-8 grid gap-6 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
                 <div className="space-y-1">
-                  <dt className="font-semibold text-[rgb(var(--meadow-ink))]">Your biggest time drain</dt>
-                  <dd>Find which task is eating the most hours—like invoice follow-ups that waste 28 hours a month.</dd>
+                  <dt className="font-semibold text-[rgb(var(--meadow-ink))]">Find your biggest time vampire</dt>
+                  <dd>We'll show you exactly which tasks are destroying your schedule—like those invoice follow-ups stealing 28 hours every month.</dd>
                 </div>
                 <div className="space-y-1">
-                  <dt className="font-semibold text-[rgb(var(--meadow-ink))]">Simple roadmap</dt>
-                  <dd>Get a clear plan your team can understand and use, with what stays the same and what gets easier.</dd>
+                  <dt className="font-semibold text-[rgb(var(--meadow-ink))]">A plan that actually works</dt>
+                  <dd>Walk away with a clear roadmap your team will understand and follow—no confusion, no pushback.</dd>
                 </div>
                 <div className="space-y-1">
-                  <dt className="font-semibold text-[rgb(var(--meadow-ink))]">Quick start checklist</dt>
-                  <dd>Know exactly what to do first so you're saving time within weeks, not waiting months.</dd>
+                  <dt className="font-semibold text-[rgb(var(--meadow-ink))]">Get your life back fast</dt>
+                  <dd>Start saving hours in weeks, not months. Most owners reclaim their evenings within 30 days.</dd>
                 </div>
               </dl>
             </div>
@@ -83,16 +83,16 @@ export default function MeadowHero() {
         </div>
         <div className="grid gap-6 rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/60 p-6 shadow-sm backdrop-blur-sm sm:grid-cols-3">
           <div>
-            <p className="text-3xl font-semibold text-[rgb(var(--meadow-primary))]">$120k</p>
-            <p className="text-sm text-[rgb(var(--meadow-ink)/0.7)]">Average annual savings our small business clients get back in their first year</p>
+            <p className="text-3xl font-semibold text-[rgb(var(--meadow-primary))]">20+ hours</p>
+            <p className="text-sm text-[rgb(var(--meadow-ink)/0.7)]">Average weekly hours our clients get back—that's a half day every single week</p>
           </div>
           <div>
-            <p className="text-3xl font-semibold text-[rgb(var(--meadow-primary))]">18 days</p>
-            <p className="text-sm text-[rgb(var(--meadow-ink)/0.7)]">Average time from your first call to actually saving hours each week</p>
+            <p className="text-3xl font-semibold text-[rgb(var(--meadow-primary))]">Under 3 weeks</p>
+            <p className="text-sm text-[rgb(var(--meadow-ink)/0.7)]">From your first call to getting your evenings and weekends back</p>
           </div>
           <div>
-            <p className="text-3xl font-semibold text-[rgb(var(--meadow-primary))]">94%</p>
-            <p className="text-sm text-[rgb(var(--meadow-ink)/0.7)]">Business owners who find more ways to save time after seeing the first results</p>
+            <p className="text-3xl font-semibold text-[rgb(var(--meadow-primary))]">Every client</p>
+            <p className="text-sm text-[rgb(var(--meadow-ink)/0.7)]">Who starts finds more time-wasters to eliminate once they see it working</p>
           </div>
         </div>
       </div>

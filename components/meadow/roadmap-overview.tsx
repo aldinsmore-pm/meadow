@@ -43,10 +43,10 @@ export default function MeadowRoadmapOverview() {
             What the free plan includes
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Walk away with a clear plan you can actually use
+            One 90-minute call. A plan you can act on today.
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            The free session helps you see exactly which tasks are worth fixing, what it will cost, and how to get started—so you can decide if it makes sense for your business.
+            No fluffy strategy deck. No vague recommendations. Just a clear roadmap showing exactly which tasks to kill, how many hours you'll get back, and what it costs. Then you decide.
           </p>
         </div>
 

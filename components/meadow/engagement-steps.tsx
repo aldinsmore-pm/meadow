@@ -1,21 +1,21 @@
 const steps = [
   {
-    title: "We talk through your day",
+    title: "Tell us what's killing you (90 minutes)",
     description:
-      "We sit down with you and ask about the tasks eating up your time. Together we find the quick wins that will make the biggest difference.",
-    deliverable: "Clear picture of where your time is going",
+      "You walk us through a typical week—the late nights, the tasks you hate, the stuff you can't delegate. We identify the top 3 time-vampires bleeding your schedule dry.",
+    deliverable: "Know exactly what to attack first",
   },
   {
-    title: "You get your Time-Back Plan",
+    title: "Get your escape plan (48 hours later)",
     description:
-      "We show you exactly what you'll save, what it will cost, and which task to fix first. No confusing tech talk—just a simple plan you can understand.",
-    deliverable: "One-page roadmap with real numbers",
+      "We deliver a one-page plan showing exactly how many hours you'll reclaim, what it costs, and when you'll break even. No corporate jargon—just clear numbers you can act on today.",
+    deliverable: "Your roadmap to freedom",
   },
   {
-    title: "We help you set it up",
+    title: "Watch it work (starts week 2)",
     description:
-      "We work alongside your team to get things running, train your people, and make sure it actually works. Most businesses are saving time within a month.",
-    deliverable: "Working solution with your team trained up",
+      "We build it with your team watching, train them in plain English, and don't leave until it's running. You'll see hours coming back to your schedule within 18 days.",
+    deliverable: "Time back in your calendar, permanently",
   },
 ];
 
@@ -26,17 +26,17 @@ export default function MeadowEngagementSteps() {
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              A straightforward process that respects your time
+              From first call to getting your life back: under 3 weeks
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              No endless meetings or complicated tech talk. We help you identify what's stealing your time and get it fixed—fast.
+              No six-month projects or endless consultants. We move fast because we know you're already stretched too thin. Here's exactly what happens.
             </p>
             <div className="rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/70 p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">What you can expect</h3>
+              <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">Why this actually works</h3>
               <ul className="mt-4 space-y-3 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
-                <li>• A real person who understands small business, not just tech</li>
-                <li>• Simple checklists and step-by-step guides you can actually follow</li>
-                <li>• Help training someone on your team so you're not dependent on us</li>
+                <li>• No tech background needed—if you can use email, you can do this</li>
+                <li>• Your team won't revolt because we make them heroes, not victims</li>
+                <li>• You own it—we train someone on your team so you're never stuck</li>
               </ul>
             </div>
           </div>

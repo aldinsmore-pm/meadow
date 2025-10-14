@@ -22,10 +22,10 @@ export default function MeadowChatCta() {
         <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              Not ready to book a call? Try this first
+              Hate sales calls? Start here instead
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Our guided chat asks about your daily routine and shows you exactly which tasks you could automate, how much time you'd save, and what it might cost—all without talking to a salesperson.
+              Answer a few questions about your weekly grind. Get instant time-savings ideas with real numbers—no pressure, no sales pitch, no one calling you. See what's possible, then decide.
             </p>
             <Link
               href="#book-ai-roadmap"

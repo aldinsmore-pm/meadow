@@ -9,23 +9,23 @@ export default function MeadowFinalCta() {
           <div className="absolute -bottom-16 -right-10 h-44 w-44 rounded-full bg-[rgba(255,255,255,0.18)] blur-3xl" />
           <div className="relative space-y-6">
             <h2 className="text-pretty text-3xl font-semibold sm:text-4xl">
-              Ready to get your time back?
+              How many more weeks will you work until 9pm?
             </h2>
             <p className="text-base text-white/80">
-              Book a free Time-Back Plan session. We'll talk through what's eating your time, figure out what will save you the most hours, and give you a clear plan you can use right away.
+              Book your free Time-Back Plan now. In 90 minutes, you'll know exactly which tasks are destroying your schedule—and have a plan to reclaim 10-20 hours every week starting this month.
             </p>
             <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
               <Link
                 href="https://cal.com"
                 className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-base font-semibold text-[rgb(var(--meadow-primary))] transition hover:-translate-y-0.5 hover:bg-white/90"
               >
-                Get your free Time-Back Plan
+                Yes, I want my life back
               </Link>
               <Link
                 href="#start-chat"
                 className="inline-flex items-center justify-center rounded-full border border-white/60 px-6 py-3 text-base font-semibold text-white transition hover:bg-white/10"
               >
-                See what you could save
+                Show me the calculator first
               </Link>
             </div>
           </div>

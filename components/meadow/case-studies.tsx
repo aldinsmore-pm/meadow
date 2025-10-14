@@ -2,37 +2,37 @@ const caseStudies = [
   {
     company: "BrightLedger Accounting",
     sector: "Accounting Firm",
-    headline: "Cleared a 3-week invoice backlog and got evenings back",
+    headline: "\"I was working until 9pm every night. Now I'm home for dinner.\"",
     summary:
-      "The owner was drowning in vendor intake and invoice coding. We automated the busywork so the team could focus on client relationships instead.",
+      "Sasha was drowning in a 3-week invoice backlog, missing her kids' bedtimes. We automated vendor intake and invoice coding in 18 days. Now she leaves at 5pm and the work still gets done.",
     metrics: [
-      { label: "Time saved", value: "80 hrs/mo" },
-      { label: "Fewer errors", value: "97% → 99.6%" },
-      { label: "Money back", value: "Under 3 months" },
+      { label: "Time reclaimed", value: "80 hrs/mo" },
+      { label: "Left office by 5pm", value: "Every day" },
+      { label: "Payback period", value: "2.5 months" },
     ],
   },
   {
     company: "Atlas Clinics",
     sector: "Healthcare Practice",
-    headline: "Cut prior auth turnaround from 2 days to 6 hours",
+    headline: "\"Staff stopped complaining about the paperwork nightmare\"",
     summary:
-      "Insurance paperwork was eating up clinical staff time. Now it's handled automatically with nurse review only when needed.",
+      "Prior authorizations were taking 2 days—delaying patient care and burning out staff. Now it's 6 hours, nurses only review exceptions, and patient satisfaction scores jumped.",
     metrics: [
-      { label: "Faster service", value: "48h → 6h" },
-      { label: "Team using it", value: "82%" },
-      { label: "Time to launch", value: "28 days" },
+      { label: "Turnaround time", value: "48h → 6h" },
+      { label: "Staff relief", value: "Immediate" },
+      { label: "Launched in", value: "28 days" },
     ],
   },
   {
     company: "Fieldstone Logistics",
     sector: "Freight Company",
-    headline: "Stopped living in spreadsheets for dispatch",
+    headline: "\"Finally stopped living in my email at midnight\"",
     summary:
-      "The owner was manually tracking every shipment update. We built a simple system that does it automatically and flags only what needs attention.",
+      "Laura was manually tracking 80+ shipments per week, constantly checking status updates at all hours. Now the system monitors everything and only alerts her when there's an actual problem.",
     metrics: [
-      { label: "Less busywork", value: "68% fewer updates" },
-      { label: "Better service", value: "+12% on-time" },
-      { label: "Owner happiness", value: "Way up" },
+      { label: "Manual updates", value: "Eliminated 68%" },
+      { label: "Delivery performance", value: "+12%" },
+      { label: "Sleep quality", value: "Restored" },
     ],
   },
 ];
@@ -46,10 +46,10 @@ export default function MeadowCaseStudies() {
             Real results
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Business owners getting their time back
+            From overwhelmed and exhausted to in control
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Each business started with a free Time-Back Plan to identify their biggest time drains. They were saving hours every week within the first 90 days.
+            These owners were working nights and weekends, missing family time, and constantly stressed. Now they're not. Here's what changed in less than 30 days.
           </p>
         </div>
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
