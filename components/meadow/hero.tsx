@@ -73,7 +73,7 @@ export default function MeadowHero() {
               <div className="absolute inset-0 -z-10">
                 <div className="absolute -right-20 top-0 h-40 w-40 rounded-full bg-[rgba(var(--meadow-warm)/0.7)] blur-3xl" />
               </div>
-              <div className="flex flex-col gap-0 lg:min-h-[360px] lg:flex-row">
+              <div className="flex flex-col gap-0 lg:min-h-[280px] lg:flex-row">
                 <div className="relative min-h-[280px] flex-1 overflow-hidden border-b border-[rgba(var(--meadow-primary)/0.1)] lg:min-h-0 lg:border-b-0 lg:border-r">
                   <Image
                     src={FounderImage}
