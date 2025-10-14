@@ -2,35 +2,35 @@ const roadmapMoments = [
   {
     title: "Before we meet",
     description:
-      "Send a quick list of the jobs slowing you down. We look at volumes, software, and who’s involved so our call stays focused.",
-    note: "Prep time: 1 business day",
+      "Just send us a quick list of the tasks eating your time. We'll review it so our conversation stays focused on what matters most to you.",
+    note: "Takes 1 business day",
   },
   {
-    title: "During the AI Game Plan",
+    title: "During your Time-Back Plan session",
     description:
-      "We walk through each idea, rate how much time or cash it saves, check what tools are needed, and note any guardrails.",
-    note: "90-minute working session",
+      "We walk through your day together, talk about what's taking too long, and figure out what will save you the most time for the least hassle.",
+    note: "90-minute conversation",
   },
   {
-    title: "48 hours after",
+    title: "Within 2 days after",
     description:
-      "Get a simple packet with savings numbers, risk notes, and a step-by-step pilot checklist tailored to your tools.",
-    note: "Delivered as PDF + slides",
+      "Get a simple plan that shows exactly what you'll save, what it will cost, and the steps to get started—no tech jargon, just a clear roadmap.",
+    note: "PDF + slides you can share",
   },
 ];
 
 const roadmapDeliverables = [
   {
-    label: "Prioritized automations",
-    detail: "3–5 plays with projected savings, what they cost to build, and what needs to be in place first.",
+    label: "Your top time-savers ranked",
+    detail: "3–5 specific tasks you can fix, how many hours each will save, and what each costs to set up.",
   },
   {
-    label: "Stakeholder alignment kit",
-    detail: "Talking points, risk list, and approval steps so finance, compliance, and ops can sign off fast.",
+    label: "A plan your team will understand",
+    detail: "Simple talking points so you can explain the changes to your team and get everyone on board.",
   },
   {
-    label: "Pilot launch sequence",
-    detail: "30-60-90 plan with owners, training cadence, and guardrails to keep adoption on track.",
+    label: "Your 30-60-90 day roadmap",
+    detail: "Clear next steps showing who does what and when, so you're not left wondering what comes next.",
   },
 ];
 
@@ -40,13 +40,13 @@ export default function MeadowRoadmapOverview() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.2)] bg-[rgba(var(--meadow-muted)/0.8)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-primary))]">
-            What the free Game Plan includes
+            What the free plan includes
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Every session ends with a plan you can put to work this month
+            Walk away with a clear plan you can actually use
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Use the free session to pressure-test automation ideas, make sure leadership is on board, and understand the cost before you greenlight a build.
+            The free session helps you see exactly which tasks are worth fixing, what it will cost, and how to get started—so you can decide if it makes sense for your business.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function MeadowRoadmapOverview() {
 
           <div className="flex flex-col gap-6">
             <div className="rounded-3xl border border-[rgba(var(--meadow-primary)/0.15)] bg-[rgba(var(--meadow-muted)/0.8)] p-7 shadow-sm">
-              <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">Leave with tangible assets</h3>
+              <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">What you'll take home</h3>
               <ul className="mt-4 space-y-4 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
                 {roadmapDeliverables.map((item) => (
                   <li key={item.label} className="rounded-2xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/70 p-4 shadow-sm">
@@ -80,9 +80,9 @@ export default function MeadowRoadmapOverview() {
               </ul>
             </div>
             <div className="rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/75 p-7 text-sm text-[rgb(var(--meadow-ink)/0.8)] shadow-sm">
-              <p className="text-base font-semibold text-[rgb(var(--meadow-ink))]">Want to tailor the session?</p>
+              <p className="text-base font-semibold text-[rgb(var(--meadow-ink))]">Want to get more from your session?</p>
               <p className="mt-2">
-                Share your process docs or volume spreadsheets ahead of time and we&rsquo;ll preload them into the chat workspace so insights are ready during the call.
+                Send us any notes or spreadsheets about your processes ahead of time. We'll review them before the call so we can dive right into solutions.
               </p>
               <a
                 href="mailto:hello@meadow.ai"

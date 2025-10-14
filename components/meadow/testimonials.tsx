@@ -1,21 +1,21 @@
 const testimonials = [
   {
     quote:
-      "Meadow helped us spot automations that saved 320 labor hours in the first quarter. Their plan made it easy for finance and compliance to sign off immediately.",
+      "I was drowning in invoices and follow-ups. Meadow showed me exactly what was eating my time and helped us fix it. Now I actually have evenings with my family again.",
     author: "Sasha Patel",
-    role: "COO, BrightLedger Accounting",
+    role: "Owner, BrightLedger Accounting",
   },
   {
     quote:
-      "Instead of another AI workshop, Meadow embedded with our ops leads and shipped a working pilot in 3 weeks. Adoption is now above 80%.",
+      "Instead of just talking about it, they actually helped us get it done in 3 weeks. My team uses it every day and it just works.",
     author: "Jamal Rivers",
-    role: "Director of Operations, Atlas Clinics",
+    role: "Owner, Atlas Clinics",
   },
   {
     quote:
-      "We finally have a governed way to pick AI bets. The ROI calculator and rollout plan gave our board confidence to invest.",
+      "I finally stopped living in spreadsheets. The ROI calculator helped me see it was worth it, and the plan made it easy to get started.",
     author: "Laura Kim",
-    role: "VP Operations, Fieldstone Logistics",
+    role: "Owner, Fieldstone Logistics",
   },
 ];
 
@@ -25,10 +25,10 @@ export default function MeadowTestimonials() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Trusted by owners shipping real automations
+            What business owners say
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Every engagement ends with a repeatable playbook, not just insights. Here’s what leaders say about working with Meadow.
+            Real stories from small business owners who got their time back and can finally focus on growing their business.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -1,18 +1,18 @@
 const valueProps = [
   {
-    title: "Plans owners and managers can say yes to",
+    title: "Get your time back without the complexity",
     description:
-      "We turn vague AI ideas into simple numbers: hours saved, cost to build, and when it pays back. Everyone sees the upside before you spend a dollar.",
+      "We show you exactly how many hours you'll save and what it will cost—no tech jargon, just clear numbers. You'll know if it makes sense before spending a penny.",
   },
   {
-    title: "Automations that plug into what you already use",
+    title: "Works with the tools you already have",
     description:
-      "From QuickBooks to industry-specific tools, we design workflows that sit on top of your current systems and keep data access locked down from day one.",
+      "From QuickBooks to whatever software runs your business, we build solutions that work with your existing setup. No ripping and replacing everything.",
   },
   {
-    title: "People-first rollout support",
+    title: "Your team will actually use it",
     description:
-      "We handle training, quality checks, and the human hand-offs so your team feels supported—not replaced—when the automation goes live.",
+      "We train your people and make the transition smooth. They'll feel supported and empowered, not threatened or confused.",
   },
 ];
 
@@ -22,13 +22,13 @@ export default function MeadowValueProps() {
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.2)] bg-[rgba(var(--meadow-muted)/0.8)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-primary))]">
-            Why operators choose Meadow
+            How we help
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Your AI partner for real savings and smoother days
+            Finally stop doing everything yourself
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Every project is scoped to cut obvious pain first, then set you up to keep improving without needing a full-time AI hire.
+            We find the tasks eating your time and help you solve them—starting with the biggest time-wasters first, so you can focus on growing your business.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2">

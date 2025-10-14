@@ -16,8 +16,8 @@ const presets: Array<{
   description: string;
 }> = [
   {
-    label: "Finance ops",
-    description: "120 invoices / month, $45 blended rate",
+    label: "Accounting firm",
+    description: "Invoice and billing work",
     values: {
       monthlyHours: 140,
       hourlyCost: 45,
@@ -27,8 +27,8 @@ const presets: Array<{
     },
   },
   {
-    label: "Logistics",
-    description: "80 shipments / week, $38 blended rate",
+    label: "Freight company",
+    description: "Shipment tracking and updates",
     values: {
       monthlyHours: 160,
       hourlyCost: 38,
@@ -38,8 +38,8 @@ const presets: Array<{
     },
   },
   {
-    label: "Healthcare",
-    description: "Prior auth queue with $52 RN support",
+    label: "Medical practice",
+    description: "Insurance paperwork",
     values: {
       monthlyHours: 110,
       hourlyCost: 52,
@@ -91,13 +91,13 @@ export default function MeadowRoiCalculator() {
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
           <div className="space-y-6">
             <span className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.2)] bg-[rgba(var(--meadow-muted)/0.8)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-primary))]">
-              Model ROI in minutes
+              See what you could save
             </span>
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              Forecast savings before you commit to a build
+              Calculate your time and money back
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Adjust the levers below to estimate labor savings, payback period, and first-year ROI for your top automation candidate. We walk through the same math during the free AI Game Plan (Roadmap) so you know the upside before you build.
+              Adjust the numbers below to see how much time and money you could save by fixing one repetitive task. We'll walk through the same calculation together during your free Time-Back Plan session.
             </p>
             <div className="grid gap-3 sm:grid-cols-3">
               {presets.map((preset) => (
@@ -121,19 +121,19 @@ export default function MeadowRoiCalculator() {
             </div>
             <p className="text-sm text-[rgb(var(--meadow-ink)/0.65)]">
               {activePreset === "custom" ? (
-                <>Using custom assumptions. Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:roi@meadow.ai">roi@meadow.ai</a> to preload your exact numbers before the Game Plan.</>
+                <>Using your numbers. Want us to run this with your exact data? Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:roi@meadow.ai">roi@meadow.ai</a> before your session.</>
               ) : (
-                <>Want us to run the numbers with your actual data? Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:roi@meadow.ai">roi@meadow.ai</a> and we&rsquo;ll preload it before the call.</>
+                <>Want us to calculate this with your real numbers? Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:roi@meadow.ai">roi@meadow.ai</a> and we&rsquo;ll do it before the call.</>
               )}
             </p>
           </div>
 
           <div className="space-y-6">
             <div className="rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/80 p-6 shadow-sm backdrop-blur">
-              <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">Automation inputs</h3>
+              <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">Tell us about the task</h3>
               <div className="mt-5 grid gap-4 sm:grid-cols-2">
                 <label className="space-y-2 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
-                  <span>Monthly manual hours</span>
+                  <span>Hours spent per month</span>
                   <input
                     type="number"
                     min={0}
@@ -144,7 +144,7 @@ export default function MeadowRoiCalculator() {
                   />
                 </label>
                 <label className="space-y-2 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
-                  <span>Blended hourly cost (USD)</span>
+                  <span>Cost per hour (salary + overhead)</span>
                   <input
                     type="number"
                     min={10}
@@ -155,7 +155,7 @@ export default function MeadowRoiCalculator() {
                   />
                 </label>
                 <label className="space-y-2 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
-                  <span>% of work Meadow can automate</span>
+                  <span>% of work that could be automated</span>
                   <input
                     type="number"
                     min={10}
@@ -166,7 +166,7 @@ export default function MeadowRoiCalculator() {
                   />
                 </label>
                 <label className="space-y-2 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
-                  <span>One-time build investment</span>
+                  <span>One-time setup cost</span>
                   <input
                     type="number"
                     min={0}
@@ -177,7 +177,7 @@ export default function MeadowRoiCalculator() {
                   />
                 </label>
                 <label className="space-y-2 text-sm text-[rgb(var(--meadow-ink)/0.75)] sm:col-span-2">
-                  <span>Ongoing platform &amp; QA (monthly)</span>
+                  <span>Monthly maintenance cost</span>
                   <input
                     type="number"
                     min={0}
@@ -192,38 +192,38 @@ export default function MeadowRoiCalculator() {
 
             <div className="rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.08)] p-6 text-[rgb(var(--meadow-ink))] shadow-sm">
               <div className="flex flex-wrap items-center justify-between gap-3">
-                <h3 className="text-lg font-semibold">Projected impact</h3>
+                <h3 className="text-lg font-semibold">What you'll get back</h3>
                 <span className="inline-flex items-center rounded-full bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-primary))]">
                   {activePreset === "custom" ? "Custom scenario" : `${activePreset} preset`}
                 </span>
               </div>
               <dl className="mt-4 grid gap-4 sm:grid-cols-2">
                 <div className="rounded-2xl bg-white/70 p-4">
-                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">Monthly labor savings</dt>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">You save each month</dt>
                   <dd className="mt-1 text-2xl font-semibold text-[rgb(var(--meadow-primary))]">{formatCurrency(monthlySavings)}</dd>
                 </div>
                 <div className="rounded-2xl bg-white/70 p-4">
-                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">Net monthly impact</dt>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">Net profit each month</dt>
                   <dd className="mt-1 text-2xl font-semibold text-[rgb(var(--meadow-primary))]">
                     {formatCurrency(netMonthlySavings)}
                   </dd>
-                  <p className="mt-1 text-[0.7rem] text-[rgb(var(--meadow-ink)/0.6)]">After platform &amp; QA costs</p>
+                  <p className="mt-1 text-[0.7rem] text-[rgb(var(--meadow-ink)/0.6)]">After maintenance costs</p>
                 </div>
                 <div className="rounded-2xl bg-white/70 p-4 sm:col-span-2">
-                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">Payback period</dt>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">Investment pays for itself in</dt>
                   <dd className="mt-1 text-xl font-semibold text-[rgb(var(--meadow-ink))]">
-                    {Number.isFinite(paybackMonths) ? `${paybackMonths.toFixed(1)} months` : "Add savings inputs"}
+                    {Number.isFinite(paybackMonths) ? `${paybackMonths.toFixed(1)} months` : "Enter your numbers above"}
                   </dd>
                   <p className="mt-2 text-xs text-[rgb(var(--meadow-ink)/0.65)]">
-                    Includes automation build and the first month of platform &amp; QA.
+                    Includes setup cost and first month of maintenance.
                   </p>
                 </div>
                 <div className="rounded-2xl bg-white/70 p-4">
-                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">Year-one ROI</dt>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">Return in year one</dt>
                   <dd className="mt-1 text-2xl font-semibold text-[rgb(var(--meadow-primary))]">{Number.isFinite(roiPercent) ? `${roiPercent.toFixed(0)}%` : "—"}</dd>
                 </div>
                 <div className="rounded-2xl bg-white/70 p-4">
-                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">Net value year one</dt>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">Total saved first year</dt>
                   <dd className="mt-1 text-xl font-semibold text-[rgb(var(--meadow-ink))]">{formatCurrency(netAnnualValue)}</dd>
                 </div>
               </dl>
@@ -231,10 +231,10 @@ export default function MeadowRoiCalculator() {
                 href="#book-ai-roadmap"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[rgb(var(--meadow-primary))] px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary))]/90"
               >
-                Walk through this in the free Game Plan
+                Get your free Time-Back Plan
               </a>
               <p className="mt-3 text-[0.7rem] text-[rgb(var(--meadow-ink)/0.55)]">
-                ROI reflects labor savings vs. build plus 12 months of platform &amp; QA support. Adjust the sliders to pressure-test assumptions before the Game Plan session.
+                These numbers compare your time savings to setup and maintenance costs over 12 months. We'll walk through this together in your free session.
               </p>
             </div>
           </div>

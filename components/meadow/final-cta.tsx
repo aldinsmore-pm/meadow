@@ -9,23 +9,23 @@ export default function MeadowFinalCta() {
           <div className="absolute -bottom-16 -right-10 h-44 w-44 rounded-full bg-[rgba(255,255,255,0.18)] blur-3xl" />
           <div className="relative space-y-6">
             <h2 className="text-pretty text-3xl font-semibold sm:text-4xl">
-              Want less busywork and more margin this quarter?
+              Ready to get your time back?
             </h2>
             <p className="text-base text-white/80">
-              Book a free AI Game Plan (Roadmap) session. We’ll review your bottlenecks, run the savings calculator together, and hand back a step-by-step plan your crew can start on right away.
+              Book a free Time-Back Plan session. We'll talk through what's eating your time, figure out what will save you the most hours, and give you a clear plan you can use right away.
             </p>
             <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
               <Link
                 href="https://cal.com"
                 className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-base font-semibold text-[rgb(var(--meadow-primary))] transition hover:-translate-y-0.5 hover:bg-white/90"
               >
-                Book the free Game Plan (Roadmap)
+                Get your free Time-Back Plan
               </Link>
               <Link
                 href="#start-chat"
                 className="inline-flex items-center justify-center rounded-full border border-white/60 px-6 py-3 text-base font-semibold text-white transition hover:bg-white/10"
               >
-                Preview ideas in chat
+                See what you could save
               </Link>
             </div>
           </div>

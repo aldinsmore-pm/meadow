@@ -1,28 +1,28 @@
 const faqs = [
   {
-    question: "What happens during the free AI Game Plan (Roadmap)?",
+    question: "What happens during the free Time-Back Plan session?",
     answer:
-      "We spend 90 minutes digging into the jobs slowing your team down, the tools you already use, and any rules we need to follow. Together we rank ideas, run first-pass savings numbers, and pick the pilot you want working first.",
+      "We spend 90 minutes talking about what's eating up your time, what tools you're already using, and what you've tried before. We'll figure out together which tasks would save you the most time and be easiest to fix first.",
   },
   {
-    question: "How soon do we see something working?",
+    question: "How quickly will I actually save time?",
     answer:
-      "Most teams greenlight a pilot within 48 hours of getting the plan. Meadow co-builds with your operators so you usually have a governed, human-in-the-loop workflow live in about 30 days.",
+      "Most business owners decide to move forward within a couple days of getting their plan. We work alongside your team, and typically you're saving hours every week within about a month.",
   },
   {
-    question: "Which systems do you integrate with?",
+    question: "Will this work with my current software?",
     answer:
-      "We meet you where you work—ERPs, EMRs, TMS, CRMs, or homegrown spreadsheets. Part of the plan includes the integration path, security steps, and prompts tuned for your stack.",
+      "Yes. Whether you use QuickBooks, industry-specific software, or even just spreadsheets, we make it work with what you already have. No need to rip everything out and start over.",
   },
   {
-    question: "How do you handle data security and compliance?",
+    question: "Is my data safe? What about privacy?",
     answer:
-      "Every engagement includes a risk register, access controls, and vendor evaluation templates. If you have HIPAA, SOC 2, or internal guardrails, we map automation steps so reviewers can approve quickly.",
+      "Absolutely. We include security and access controls from day one. If you work in healthcare, finance, or have specific compliance needs, we'll make sure everything is locked down properly.",
   },
   {
-    question: "What does working with Meadow cost after the plan?",
+    question: "How much does this cost after the free plan?",
     answer:
-      "Pilot builds usually start between $15k–$40k depending on scope. We align on pricing during the plan once the automation complexity and guardrails are clear.",
+      "Setup usually runs between $15k–$40k depending on what you need. We'll give you exact pricing during your free session once we understand what you're trying to fix.",
   },
 ];
 
@@ -32,13 +32,13 @@ export default function MeadowFaq() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <div className="text-center">
           <span className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.2)] bg-[rgba(var(--meadow-muted)/0.8)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-primary))]">
-            Still have questions?
+            Questions?
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Everything you need before booking the free Game Plan
+            Common questions from business owners
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            If you need a deeper technical review or security questionnaire, email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:hello@meadow.ai">hello@meadow.ai</a> and we&rsquo;ll line it up.
+            Don't see your question here? Email us at <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:hello@meadow.ai">hello@meadow.ai</a> and we'll get back to you quickly.
           </p>
         </div>
         <div className="mt-12 space-y-4">

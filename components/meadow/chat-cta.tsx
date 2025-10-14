@@ -2,16 +2,16 @@ import Link from "next/link";
 
 const prompts = [
   {
-    title: "Find My Automations",
-    description: "Answer a handful of questions about your team and tasks. We’ll send back three automation ideas with time and dollar savings.",
+    title: "Find Your Time-Savers",
+    description: "Answer a few questions about your daily tasks. Get back three specific ideas that could save you the most time.",
   },
   {
-    title: "ROI Calculator",
-    description: "Upload a simple spreadsheet or describe your volume. Get a clear savings estimate, build cost, and payback date.",
+    title: "See What You'll Save",
+    description: "Tell us about a task that's eating your time. Get a clear estimate of hours saved and what it might cost to fix.",
   },
   {
-    title: "Share with your team",
-    description: "Turn the chat output into a short summary you can forward to partners, finance, or the floor manager for quick sign-off.",
+    title: "Share with Your Team",
+    description: "Turn the results into a simple summary you can share with your team or partners to get their thoughts.",
   },
 ];
 
@@ -22,16 +22,16 @@ export default function MeadowChatCta() {
         <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              Get tailored automation ideas without a sales call
+              Not ready to book a call? Try this first
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Meadow’s guided chat captures the day-to-day details of your shop and gives you plain-language ideas, savings estimates, and rollout steps you can share immediately.
+              Our guided chat asks about your daily routine and shows you exactly which tasks you could automate, how much time you'd save, and what it might cost—all without talking to a salesperson.
             </p>
             <Link
               href="#book-ai-roadmap"
               className="inline-flex items-center justify-center rounded-full bg-[rgb(var(--meadow-primary))] px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-[rgba(var(--meadow-primary)/0.25)] transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary))]/90"
             >
-              Book the free Game Plan (Roadmap) to unlock the chat
+              Get your free Time-Back Plan to unlock chat
             </Link>
           </div>
           <div className="space-y-4">

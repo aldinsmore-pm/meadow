@@ -1,21 +1,21 @@
 const steps = [
   {
-    title: "Workflow walk-through",
+    title: "We talk through your day",
     description:
-      "We sit down with you and your leads, map the tasks eating hours, and flag quick wins you can actually hand to software.",
-    deliverable: "Plain-language summary of where time is leaking",
+      "We sit down with you and ask about the tasks eating up your time. Together we find the quick wins that will make the biggest difference.",
+    deliverable: "Clear picture of where your time is going",
   },
   {
-    title: "AI Game Plan",
+    title: "You get your Time-Back Plan",
     description:
-      "We rank every idea by money saved, effort to build, and any red tape. You leave knowing what to tackle first and what it will cost.",
-    deliverable: "One-page build order with savings and price tags",
+      "We show you exactly what you'll save, what it will cost, and which task to fix first. No confusing tech talk—just a simple plan you can understand.",
+    deliverable: "One-page roadmap with real numbers",
   },
   {
-    title: "Pilot launch",
+    title: "We help you set it up",
     description:
-      "We build the top pick beside your team, handle the tech hookups, and train staff. Most clients go live in about a month.",
-    deliverable: "Live automation with training and guardrails",
+      "We work alongside your team to get things running, train your people, and make sure it actually works. Most businesses are saving time within a month.",
+    deliverable: "Working solution with your team trained up",
   },
 ];
 
@@ -26,17 +26,17 @@ export default function MeadowEngagementSteps() {
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              A simple process that keeps you in control
+              A straightforward process that respects your time
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Skip the endless workshops. Meadow moves from scoping to a working automation in one tight engagement so owners see proof fast.
+              No endless meetings or complicated tech talk. We help you identify what's stealing your time and get it fixed—fast.
             </p>
             <div className="rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/70 p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">What you can expect</h3>
               <ul className="mt-4 space-y-3 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
-                <li>• Dedicated Meadow partner who knows ops, not just AI jargon</li>
-                <li>• Secure shared workspace with checklists, scripts, and recordings</li>
-                <li>• Optional co-pilot support to train an internal champion</li>
+                <li>• A real person who understands small business, not just tech</li>
+                <li>• Simple checklists and step-by-step guides you can actually follow</li>
+                <li>• Help training someone on your team so you're not dependent on us</li>
               </ul>
             </div>
           </div>

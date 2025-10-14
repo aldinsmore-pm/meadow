@@ -1,38 +1,38 @@
 const caseStudies = [
   {
     company: "BrightLedger Accounting",
-    sector: "Finance operations",
-    headline: "AP automation cleared a 3-week backlog",
+    sector: "Accounting Firm",
+    headline: "Cleared a 3-week invoice backlog and got evenings back",
     summary:
-      "Scoped vendor intake, invoice coding, and reconciliation automations with finance + compliance sign-off in one sprint.",
+      "The owner was drowning in vendor intake and invoice coding. We automated the busywork so the team could focus on client relationships instead.",
     metrics: [
-      { label: "Hours returned", value: "320/quarter" },
-      { label: "Accuracy lift", value: "97% → 99.6%" },
-      { label: "Payback", value: "2.7 months" },
+      { label: "Time saved", value: "80 hrs/mo" },
+      { label: "Fewer errors", value: "97% → 99.6%" },
+      { label: "Money back", value: "Under 3 months" },
     ],
   },
   {
     company: "Atlas Clinics",
-    sector: "Multi-site healthcare",
-    headline: "Prior auth workflow now resolves in hours",
+    sector: "Healthcare Practice",
+    headline: "Cut prior auth turnaround from 2 days to 6 hours",
     summary:
-      "Combined LLM triage with EHR integrations and RN review loops so clinical staff can focus on patient escalations.",
+      "Insurance paperwork was eating up clinical staff time. Now it's handled automatically with nurse review only when needed.",
     metrics: [
-      { label: "Cycle time", value: "48h → 6h" },
-      { label: "Adoption", value: "82% of staff" },
-      { label: "Pilot duration", value: "28 days" },
+      { label: "Faster service", value: "48h → 6h" },
+      { label: "Team using it", value: "82%" },
+      { label: "Time to launch", value: "28 days" },
     ],
   },
   {
     company: "Fieldstone Logistics",
-    sector: "Freight coordination",
-    headline: "Dispatch moved from spreadsheets to governed agents",
+    sector: "Freight Company",
+    headline: "Stopped living in spreadsheets for dispatch",
     summary:
-      "Designed a chat-forward command center that syncs TMS updates, vendor ETAs, and exception handling playbooks.",
+      "The owner was manually tracking every shipment update. We built a simple system that does it automatically and flags only what needs attention.",
     metrics: [
-      { label: "Manual updates", value: "-68%" },
-      { label: "On-time loads", value: "+12 pts" },
-      { label: "Leadership NPS", value: "+28" },
+      { label: "Less busywork", value: "68% fewer updates" },
+      { label: "Better service", value: "+12% on-time" },
+      { label: "Owner happiness", value: "Way up" },
     ],
   },
 ];
@@ -43,13 +43,13 @@ export default function MeadowCaseStudies() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="max-w-2xl">
           <span className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.2)] bg-[rgba(var(--meadow-muted)/0.8)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-primary))]">
-            Proof in live operations
+            Real results
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Operators rely on Meadow when automations must ship
+            Business owners getting their time back
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Every Game Plan comes with hands-on help to ship the first win. Each story below started with the free AI Game Plan (Roadmap) session and was live inside the first 90 days.
+            Each business started with a free Time-Back Plan to identify their biggest time drains. They were saving hours every week within the first 90 days.
           </p>
         </div>
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
@@ -62,7 +62,7 @@ export default function MeadowCaseStudies() {
                 <div className="flex items-center justify-between gap-3 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">
                   <span>{study.sector}</span>
                   <span className="rounded-full bg-[rgba(var(--meadow-primary)/0.15)] px-2 py-1 text-[rgb(var(--meadow-primary))]">
-                    Started with free AI Game Plan
+                    Started with free plan
                   </span>
                 </div>
                 <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">{study.headline}</h3>
