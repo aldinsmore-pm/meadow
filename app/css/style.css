@@ -9,40 +9,40 @@
 }
 
 @theme {
-  --font-inter: var(--font-inter), sans-serif;
-  --font-nacelle: var(--font-nacelle), sans-serif;
+  --font-sans: var(--font-inter), "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: var(--font-serif), "Georgia", "Times New Roman", serif;
 
   --text-xs: 0.8125rem;
-  --text-xs--line-height: 1.5384;
-  --text-sm: 0.875rem;
-  --text-sm--line-height: 1.5715;
-  --text-base: 0.9375rem;
-  --text-base--line-height: 1.5333;
-  --text-base--letter-spacing: -0.0125em;
-  --text-lg: 1.125rem;
-  --text-lg--line-height: 1.5;
-  --text-lg--letter-spacing: -0.0125em;
-  --text-xl: 1.25rem;
+  --text-xs--line-height: 1.6;
+  --text-sm: 0.9375rem;
+  --text-sm--line-height: 1.65;
+  --text-base: 1.0625rem;
+  --text-base--line-height: 1.7;
+  --text-base--letter-spacing: -0.01em;
+  --text-lg: 1.1875rem;
+  --text-lg--line-height: 1.6;
+  --text-lg--letter-spacing: -0.01em;
+  --text-xl: 1.375rem;
   --text-xl--line-height: 1.5;
   --text-xl--letter-spacing: -0.0125em;
-  --text-2xl: 1.5rem;
-  --text-2xl--line-height: 1.415;
-  --text-2xl--letter-spacing: -0.0268em;
-  --text-3xl: 1.75rem;
-  --text-3xl--line-height: 1.3571;
-  --text-3xl--letter-spacing: -0.0268em;
-  --text-4xl: 2.5rem;
-  --text-4xl--line-height: 1.1;
-  --text-4xl--letter-spacing: -0.0268em;
-  --text-5xl: 3.5rem;
-  --text-5xl--line-height: 1;
-  --text-5xl--letter-spacing: -0.0268em;
-  --text-6xl: 4rem;
-  --text-6xl--line-height: 1;
-  --text-6xl--letter-spacing: -0.0268em;
-  --text-7xl: 4.5rem;
-  --text-7xl--line-height: 1;
-  --text-7xl--letter-spacing: -0.0268em;
+  --text-2xl: 1.625rem;
+  --text-2xl--line-height: 1.45;
+  --text-2xl--letter-spacing: -0.02em;
+  --text-3xl: 1.9rem;
+  --text-3xl--line-height: 1.35;
+  --text-3xl--letter-spacing: -0.022em;
+  --text-4xl: 2.45rem;
+  --text-4xl--line-height: 1.2;
+  --text-4xl--letter-spacing: -0.025em;
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1.1;
+  --text-5xl--letter-spacing: -0.025em;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1.05;
+  --text-6xl--letter-spacing: -0.025em;
+  --text-7xl: 4.25rem;
+  --text-7xl--line-height: 1.02;
+  --text-7xl--letter-spacing: -0.025em;
 
   --animate-shine: shine 5s ease-in-out 500ms infinite;
   --animate-gradient: gradient 6s linear infinite;
@@ -76,16 +76,54 @@
 
 @layer base {
   :root {
-    --meadow-primary: 31 122 86;
-    --meadow-accent: 126 194 127;
-    --meadow-ink: 14 30 23;
-    --meadow-muted: 235 245 239;
-    --meadow-warn: 245 190 73;
+  --meadow-primary: 45 130 95;
+  --meadow-primary-dark: 29 91 67;
+  --meadow-accent: 146 204 150;
+  --meadow-trust-blue: 64 96 164;
+  --meadow-warm: 253 247 238;
+  --meadow-ink: 21 40 30;
+  --meadow-muted: 235 245 239;
+  --meadow-warn: 243 195 112;
 
-    --bg: 255 255 255;
+  --bg: 253 250 245;
     --fg: var(--meadow-ink);
     --primary: var(--meadow-primary);
     --accent: var(--meadow-accent);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: rgb(var(--bg));
+    color: rgb(var(--fg));
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .heading-serif {
+    font-family: var(--font-serif);
+    color: rgb(var(--meadow-ink));
+  }
+
+  strong,
+  b {
+    font-family: var(--font-serif);
+  }
+
+  a {
+    color: rgb(var(--meadow-primary));
+  }
+
+  a:hover {
+    color: rgb(var(--meadow-primary-dark));
+  }
+
+  *:focus-visible {
+    outline: 3px solid rgba(var(--meadow-primary), 0.7);
+    outline-offset: 2px;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -93,6 +131,28 @@
       --bg: 12 14 14;
       --fg: 240 245 241;
     }
+  }
+}
+
+@layer utilities {
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-mono {
+    font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+  }
+
+  .bg-warm {
+    background-color: rgb(var(--meadow-warm));
+  }
+
+  .text-trust {
+    color: rgb(var(--meadow-trust-blue));
   }
 }
 

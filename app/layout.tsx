@@ -1,7 +1,6 @@
 import "./css/style.css";
 
-import { Inter } from "next/font/google";
-import localFont from "next/font/local";
+import { Inter, Source_Serif_4 } from "next/font/google";
 
 import Header from "@/components/ui/header";
 
@@ -11,37 +10,16 @@ const inter = Inter({
   display: "swap",
 });
 
-const nacelle = localFont({
-  src: [
-    {
-      path: "../public/fonts/nacelle-regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/nacelle-italic.woff2",
-      weight: "400",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/nacelle-semibold.woff2",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/nacelle-semibolditalic.woff2",
-      weight: "600",
-      style: "italic",
-    },
-  ],
-  variable: "--font-nacelle",
+const sourceSerif = Source_Serif_4({
+  subsets: ["latin"],
+  variable: "--font-serif",
   display: "swap",
 });
 
 export const metadata = {
-  title: "Meadow | Practical AI for Operations",
+  title: "Meadow | Get Your Evenings Back",
   description:
-    "Meadow partners with SMB operators to ship governed AI automations, clear savings plans, and production pilots in weeks.",
+    "Stop working until 9pm. Meadow helps small business owners reclaim 10–20 hours every week with a free Time-Back Plan and warm, done-with-you automations.",
 };
 
 export default function RootLayout({
@@ -52,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${nacelle.variable} bg-[rgb(var(--bg))] font-inter text-base text-[rgb(var(--fg))] antialiased`}
+        className={`${inter.variable} ${sourceSerif.variable} bg-[rgb(var(--bg))] font-sans text-base text-[rgb(var(--fg))] antialiased`}
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
