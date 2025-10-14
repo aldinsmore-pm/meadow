@@ -67,25 +67,23 @@ export default function MeadowHero() {
           </div>
           <div className="relative">
             <div className="absolute -left-14 -top-10 hidden h-40 w-40 rounded-full bg-[rgba(var(--meadow-accent)/0.25)] blur-3xl sm:block" />
-            <div className="relative overflow-hidden rounded-3xl border-2 border-[rgba(var(--meadow-primary)/0.15)] bg-white shadow-xl">
+            <div className="relative overflow-hidden rounded-3xl border-2 border-[rgba(var(--meadow-primary)/0.18)] bg-white shadow-2xl shadow-[rgba(var(--meadow-primary-dark)/0.2)]">
               <div className="absolute inset-0 -z-10">
                 <div className="absolute -right-20 top-0 h-40 w-40 rounded-full bg-[rgba(var(--meadow-warm)/0.7)] blur-3xl" />
               </div>
-              <div className="grid gap-0 lg:grid-cols-[0.85fr_1.15fr]">
-                <div className="relative bg-[rgba(var(--meadow-primary)/0.04)] p-6">
-                  <div className="relative overflow-hidden rounded-2xl border border-[rgba(var(--meadow-primary)/0.15)]">
-                    <img
-                      src="/images/founder-alex.jpg"
-                      alt="Alex Chen, Founder of Meadow"
-                      className="h-full w-full object-cover"
-                    />
-                    <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[rgba(0,0,0,0.45)] to-transparent px-4 py-3 text-white">
-                      <p className="text-sm font-semibold">Alex Chen</p>
-                      <p className="text-xs text-white/80">Founder, Meadow</p>
-                    </div>
+              <div className="flex flex-col gap-0 lg:min-h-[460px] lg:flex-row">
+                <div className="relative flex-1 overflow-hidden border-b border-[rgba(var(--meadow-primary)/0.1)] lg:border-b-0 lg:border-r">
+                  <img
+                    src="/images/founder-alejandro.jpg"
+                    alt="Alejandro Dinsmore, Founder of Meadow"
+                    className="h-full w-full object-cover"
+                  />
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[rgba(0,0,0,0.55)] to-transparent px-5 py-4 text-white">
+                    <p className="text-base font-semibold">Alejandro Dinsmore</p>
+                    <p className="text-sm text-white/80">Founder, Meadow</p>
                   </div>
                 </div>
-                <div className="flex flex-col justify-between border-l border-[rgba(var(--meadow-primary)/0.1)]">
+                <div className="flex flex-1 flex-col justify-between">
                   <div className="border-b border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.05)] px-6 py-4">
                     <div className="flex items-center justify-between gap-4">
                       <div>
@@ -136,9 +134,9 @@ export default function MeadowHero() {
                       </div>
                     </div>
                   </dl>
-                  <div className="border-t border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.05)] px-6 py-4 text-xs text-[rgb(var(--meadow-ink)/0.65)]">
+                  <div className="border-t border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.04)] px-6 py-5 text-sm text-[rgb(var(--meadow-ink)/0.7)]">
                     <p>
-                      "I built Meadow after spending 10 years running a logistics company and getting crushed by repetitive tasks. If this session isn’t helpful, we haven’t earned your business."
+                      "I started Meadow after a decade of running operations at my own company and feeling like the bottleneck. This plan is the exact playbook I wish someone had handed me years ago."
                     </p>
                   </div>
                 </div>
