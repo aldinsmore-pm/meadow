@@ -18,10 +18,6 @@ export default function Header() {
         <div className="flex h-20 items-center justify-between gap-6">
           <div className="flex flex-1 flex-col gap-2 sm:flex-row sm:items-center sm:gap-6">
             <Logo />
-            <div className="flex flex-col gap-1 text-xs text-[rgb(var(--meadow-ink)/0.6)] sm:hidden">
-              <span>Call us: <a href="tel:+15125551234" className="font-semibold text-[rgb(var(--meadow-primary))]">(512) 555-1234</a></span>
-              <span>Serving US &amp; Canada • Free 90-minute Time-Back Plan</span>
-            </div>
             <nav className="hidden items-center gap-4 text-sm font-semibold text-[rgb(var(--meadow-ink)/0.7)] md:flex">
               {navigation.map((item) => (
                 <Link

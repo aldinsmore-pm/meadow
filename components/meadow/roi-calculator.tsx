@@ -134,76 +134,64 @@ export default function MeadowRoiCalculator() {
                 <h3 className="heading-serif text-lg font-semibold text-[rgb(var(--meadow-ink))]">Tell us about the task</h3>
                 <p className="text-xs text-[rgb(var(--meadow-ink)/0.6)]">Numbers stay private. This just helps us show you the real upside.</p>
               </div>
-              <div className="overflow-hidden px-0 py-0">
-                <table className="w-full text-sm text-[rgb(var(--meadow-ink)/0.8)]">
-                  <tbody className="divide-y divide-[rgba(var(--meadow-primary)/0.1)]">
-                    <tr className="bg-white/80">
-                      <th scope="row" className="w-1/2 px-6 py-4 text-left font-semibold">Hours spent per month</th>
-                      <td className="px-6 py-4">
-                        <input
-                          type="number"
-                          min={0}
-                          max={800}
-                          value={inputs.monthlyHours}
-                          onChange={(event) => handleChange("monthlyHours", clamp(Number(event.target.value), 0, 800))}
-                          className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 text-right font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-trust-blue))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-trust-blue)/0.25)]"
-                        />
-                      </td>
-                    </tr>
-                    <tr className="bg-white">
-                      <th scope="row" className="px-6 py-4 text-left font-semibold">Cost per hour (salary + overhead)</th>
-                      <td className="px-6 py-4">
-                        <input
-                          type="number"
-                          min={10}
-                          max={150}
-                          value={inputs.hourlyCost}
-                          onChange={(event) => handleChange("hourlyCost", clamp(Number(event.target.value), 10, 150))}
-                          className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 text-right font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-trust-blue))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-trust-blue)/0.25)]"
-                        />
-                      </td>
-                    </tr>
-                    <tr className="bg-white/80">
-                      <th scope="row" className="px-6 py-4 text-left font-semibold">% of work that could be automated</th>
-                      <td className="px-6 py-4">
-                        <input
-                          type="number"
-                          min={10}
-                          max={90}
-                          value={inputs.automationRate}
-                          onChange={(event) => handleChange("automationRate", clamp(Number(event.target.value), 10, 90))}
-                          className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 text-right font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-trust-blue))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-trust-blue)/0.25)]"
-                        />
-                      </td>
-                    </tr>
-                    <tr className="bg-white">
-                      <th scope="row" className="px-6 py-4 text-left font-semibold">One-time setup cost</th>
-                      <td className="px-6 py-4">
-                        <input
-                          type="number"
-                          min={0}
-                          max={20000}
-                          value={inputs.buildCost}
-                          onChange={(event) => handleChange("buildCost", clamp(Number(event.target.value), 0, 20000))}
-                          className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 text-right font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-trust-blue))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-trust-blue)/0.25)]"
-                        />
-                      </td>
-                    </tr>
-                    <tr className="bg-white/80">
-                      <th scope="row" className="px-6 py-4 text-left font-semibold">Monthly maintenance cost</th>
-                      <td className="px-6 py-4">
-                        <input
-                          type="number"
-                          min={0}
-                          max={5000}
-                          value={inputs.monthlyPlatform}
-                          onChange={(event) => handleChange("monthlyPlatform", clamp(Number(event.target.value), 0, 5000))}
-                          className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 text-right font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-trust-blue))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-trust-blue)/0.25)]"
-                        />
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div className="px-6 py-6">
+                <div className="grid gap-4 sm:grid-cols-2">
+                  <label className="flex flex-col gap-2 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
+                    <span className="font-semibold text-[rgb(var(--meadow-ink))]">Hours spent per month</span>
+                    <input
+                      type="number"
+                      min={0}
+                      max={800}
+                      value={inputs.monthlyHours}
+                      onChange={(event) => handleChange("monthlyHours", clamp(Number(event.target.value), 0, 800))}
+                      className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-primary))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-primary)/0.25)]"
+                    />
+                  </label>
+                  <label className="flex flex-col gap-2 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
+                    <span className="font-semibold text-[rgb(var(--meadow-ink))]">Cost per hour (salary + overhead)</span>
+                    <input
+                      type="number"
+                      min={10}
+                      max={150}
+                      value={inputs.hourlyCost}
+                      onChange={(event) => handleChange("hourlyCost", clamp(Number(event.target.value), 10, 150))}
+                      className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-primary))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-primary)/0.25)]"
+                    />
+                  </label>
+                  <label className="flex flex-col gap-2 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
+                    <span className="font-semibold text-[rgb(var(--meadow-ink))]">% of work that could be automated</span>
+                    <input
+                      type="number"
+                      min={10}
+                      max={90}
+                      value={inputs.automationRate}
+                      onChange={(event) => handleChange("automationRate", clamp(Number(event.target.value), 10, 90))}
+                      className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-primary))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-primary)/0.25)]"
+                    />
+                  </label>
+                  <label className="flex flex-col gap-2 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
+                    <span className="font-semibold text-[rgb(var(--meadow-ink))]">One-time setup cost</span>
+                    <input
+                      type="number"
+                      min={0}
+                      max={20000}
+                      value={inputs.buildCost}
+                      onChange={(event) => handleChange("buildCost", clamp(Number(event.target.value), 0, 20000))}
+                      className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-primary))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-primary)/0.25)]"
+                    />
+                  </label>
+                  <label className="flex flex-col gap-2 text-sm text-[rgb(var(--meadow-ink)/0.75)] sm:col-span-2">
+                    <span className="font-semibold text-[rgb(var(--meadow-ink))]">Monthly maintenance cost</span>
+                    <input
+                      type="number"
+                      min={0}
+                      max={5000}
+                      value={inputs.monthlyPlatform}
+                      onChange={(event) => handleChange("monthlyPlatform", clamp(Number(event.target.value), 0, 5000))}
+                      className="w-full rounded-md border-2 border-[rgba(var(--meadow-primary)/0.25)] bg-[rgba(255,255,255,0.9)] px-3 py-2 font-mono text-base text-[rgb(var(--meadow-ink))] focus:border-[rgb(var(--meadow-primary))] focus:outline-none focus:ring-2 focus:ring-[rgba(var(--meadow-primary)/0.25)]"
+                    />
+                  </label>
+                </div>
               </div>
             </div>
 

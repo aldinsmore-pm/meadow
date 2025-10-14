@@ -28,13 +28,13 @@ export default function MeadowHero() {
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link
                 href="#book-ai-roadmap"
-                className="inline-flex items-center justify-center rounded-md border-2 border-[rgb(var(--meadow-primary-dark))] bg-[rgb(var(--meadow-primary))] px-7 py-3 text-base font-semibold text-white shadow-lg shadow-[rgba(var(--meadow-primary-dark)/0.25)] transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary-dark))]"
+                className="inline-flex items-center justify-center rounded-md border-2 border-[rgb(var(--meadow-primary-dark))] bg-[rgb(var(--meadow-primary))] px-8 py-4 text-lg font-semibold text-white shadow-xl shadow-[rgba(var(--meadow-primary-dark)/0.3)] transition hover:-translate-y-1 hover:bg-[rgb(var(--meadow-primary-dark))]"
               >
                 Show me what I'm losing
               </Link>
               <Link
                 href="#start-chat"
-                className="inline-flex items-center justify-center rounded-md border-2 border-[rgba(var(--meadow-primary)/0.4)] bg-white px-7 py-3 text-base font-semibold text-[rgb(var(--meadow-primary))] transition hover:border-[rgb(var(--meadow-primary))] hover:bg-[rgba(var(--meadow-primary)/0.08)]"
+                className="inline-flex items-center justify-center text-base font-semibold text-[rgb(var(--meadow-primary))] underline underline-offset-4 transition hover:text-[rgb(var(--meadow-primary-dark))]"
               >
                 Calculate my time back
               </Link>

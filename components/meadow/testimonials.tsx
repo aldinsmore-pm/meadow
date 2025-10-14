@@ -7,7 +7,6 @@ const testimonials = [
     location: "Austin, TX",
     years: "Client since 2023",
     rating: 5,
-    photo: "/images/testimonials/sasha.jpg",
   },
   {
     quote:
@@ -17,7 +16,6 @@ const testimonials = [
     location: "Denver, CO",
     years: "Client since 2024",
     rating: 5,
-    photo: "/images/testimonials/jamal.jpg",
   },
   {
     quote:
@@ -27,7 +25,6 @@ const testimonials = [
     location: "Memphis, TN",
     years: "Client since 2022",
     rating: 5,
-    photo: "/images/testimonials/laura.jpg",
   },
 ];
 
@@ -52,22 +49,17 @@ export default function MeadowTestimonials() {
               key={testimonial.author}
               className="flex h-full flex-col justify-between gap-6 rounded-3xl border-2 border-[rgba(var(--meadow-primary)/0.12)] bg-white p-8 text-left shadow-lg"
             >
-              <div className="flex items-start gap-4">
-                <div className="h-16 w-16 overflow-hidden rounded-full border-2 border-[rgba(var(--meadow-primary)/0.2)] bg-[rgba(var(--meadow-warm)/0.8)]" aria-hidden="true">
-                  {/* Placeholder for photo */}
+              <div className="space-y-3">
+                <div className="flex items-center gap-2 text-[rgb(var(--meadow-primary))]">
+                  {Array.from({ length: testimonial.rating }).map((_, index) => (
+                    <span key={`${testimonial.author}-star-${index}`} className="text-sm">
+                      ★
+                    </span>
+                  ))}
                 </div>
-                <div>
-                  <div className="flex items-center gap-2 text-[rgb(var(--meadow-primary))]">
-                    {Array.from({ length: testimonial.rating }).map((_, index) => (
-                      <span key={`${testimonial.author}-star-${index}`} className="text-sm">
-                        ★
-                      </span>
-                    ))}
-                  </div>
-                  <blockquote className="mt-3 border-l-4 border-[rgba(var(--meadow-primary)/0.2)] pl-4 text-[rgb(var(--meadow-ink)/0.8)]">
-                    “{testimonial.quote}”
-                  </blockquote>
-                </div>
+                <blockquote className="border-l-4 border-[rgba(var(--meadow-primary)/0.2)] pl-4 text-[rgb(var(--meadow-ink)/0.8)]">
+                  “{testimonial.quote}”
+                </blockquote>
               </div>
               <figcaption className="text-sm font-semibold text-[rgb(var(--meadow-ink))]">
                 {testimonial.author}

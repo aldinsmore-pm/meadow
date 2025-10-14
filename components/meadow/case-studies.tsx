@@ -42,13 +42,13 @@ export default function MeadowCaseStudies() {
     <section className="py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="max-w-2xl">
-          <span className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.2)] bg-[rgba(var(--meadow-muted)/0.8)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-primary))]">
+          <span className="inline-flex items-center justify-center rounded-md border border-[rgba(var(--meadow-trust-blue)/0.3)] bg-[rgba(var(--meadow-warm)/0.8)] px-5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-trust-blue))]">
             Real results
           </span>
-          <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
+          <h2 className="heading-serif mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
             From overwhelmed and exhausted to in control
           </h2>
-          <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
+          <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.72)]">
             These owners were working nights and weekends, missing family time, and constantly stressed. Now they're not. Here's what changed in less than 30 days.
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function MeadowCaseStudies() {
           {caseStudies.map((study) => (
             <article
               key={study.company}
-              className="flex h-full flex-col justify-between gap-6 rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/75 p-7 shadow-sm backdrop-blur transition hover:-translate-y-1 hover:border-[rgba(var(--meadow-primary)/0.28)]"
+              className="flex h-full flex-col justify-between gap-6 rounded-3xl border-2 border-[rgba(var(--meadow-primary)/0.12)] bg-white p-7 shadow-md transition hover:-translate-y-1 hover:border-[rgba(var(--meadow-primary)/0.28)]"
             >
               <header className="space-y-3">
                 <div className="flex items-center justify-between gap-3 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">
