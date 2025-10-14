@@ -71,58 +71,77 @@ export default function MeadowHero() {
               <div className="absolute inset-0 -z-10">
                 <div className="absolute -right-20 top-0 h-40 w-40 rounded-full bg-[rgba(var(--meadow-warm)/0.7)] blur-3xl" />
               </div>
-              <div className="border-b border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.05)] px-6 py-4">
-                <div className="flex items-center justify-between gap-4">
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-primary))]">
-                      Free time-back plan
+              <div className="grid gap-0 lg:grid-cols-[0.85fr_1.15fr]">
+                <div className="relative bg-[rgba(var(--meadow-primary)/0.04)] p-6">
+                  <div className="relative overflow-hidden rounded-2xl border border-[rgba(var(--meadow-primary)/0.15)]">
+                    <img
+                      src="/images/founder-alex.jpg"
+                      alt="Alex Chen, Founder of Meadow"
+                      className="h-full w-full object-cover"
+                    />
+                    <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[rgba(0,0,0,0.45)] to-transparent px-4 py-3 text-white">
+                      <p className="text-sm font-semibold">Alex Chen</p>
+                      <p className="text-xs text-white/80">Founder, Meadow</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col justify-between border-l border-[rgba(var(--meadow-primary)/0.1)]">
+                  <div className="border-b border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.05)] px-6 py-4">
+                    <div className="flex items-center justify-between gap-4">
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-primary))]">
+                          Free time-back plan
+                        </p>
+                        <h2 className="heading-serif text-lg font-semibold text-[rgb(var(--meadow-ink))]">
+                          What we cover in 90 minutes
+                        </h2>
+                      </div>
+                      <span className="rounded-full border-2 border-[rgba(var(--meadow-primary)/0.2)] bg-white px-3 py-1 text-xs font-semibold text-[rgb(var(--meadow-primary))]">
+                        90 MIN CALL
+                      </span>
+                    </div>
+                  </div>
+                  <dl className="grid gap-0 px-6 py-6 text-sm text-[rgb(var(--meadow-ink)/0.78)]">
+                    <div className="flex items-start gap-3 border-b border-[rgba(var(--meadow-primary)/0.08)] py-5">
+                      <span className="mt-0.5 inline-flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[rgba(var(--meadow-primary)/0.1)] font-serif text-base font-semibold text-[rgb(var(--meadow-primary))]">
+                        1
+                      </span>
+                      <div className="space-y-1">
+                        <dt className="font-semibold text-[rgb(var(--meadow-ink))]">Find your biggest time vampire</dt>
+                        <dd className="text-sm">
+                          We map the tasks eating your evenings—like invoice follow-ups that burn 28 hours every month—and see what they're costing you in dollars.
+                        </dd>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3 border-b border-[rgba(var(--meadow-primary)/0.08)] py-5">
+                      <span className="mt-0.5 inline-flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[rgba(var(--meadow-primary)/0.1)] font-serif text-base font-semibold text-[rgb(var(--meadow-primary))]">
+                        2
+                      </span>
+                      <div className="space-y-1">
+                        <dt className="font-semibold text-[rgb(var(--meadow-ink))]">See the numbers before you spend</dt>
+                        <dd className="text-sm">
+                          You walk away with savings, costs, and ROI spelled out so you can decide if it's worth it—no guesswork, no jargon.
+                        </dd>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3 py-5">
+                      <span className="mt-0.5 inline-flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[rgba(var(--meadow-primary)/0.1)] font-serif text-base font-semibold text-[rgb(var(--meadow-primary))]">
+                        3
+                      </span>
+                      <div className="space-y-1">
+                        <dt className="font-semibold text-[rgb(var(--meadow-ink))]">Turn it on within weeks</dt>
+                        <dd className="text-sm">
+                          The plan includes a simple checklist, training options, and guardrails so your team starts using it fast—and keeps using it.
+                        </dd>
+                      </div>
+                    </div>
+                  </dl>
+                  <div className="border-t border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.05)] px-6 py-4 text-xs text-[rgb(var(--meadow-ink)/0.65)]">
+                    <p>
+                      "I built Meadow after spending 10 years running a logistics company and getting crushed by repetitive tasks. If this session isn’t helpful, we haven’t earned your business."
                     </p>
-                    <h2 className="heading-serif text-lg font-semibold text-[rgb(var(--meadow-ink))]">
-                      What we cover in 90 minutes
-                    </h2>
-                  </div>
-                  <span className="rounded-full border-2 border-[rgba(var(--meadow-primary)/0.2)] bg-white px-3 py-1 text-xs font-semibold text-[rgb(var(--meadow-primary))]">
-                    90 MIN CALL
-                  </span>
-                </div>
-              </div>
-              <dl className="grid gap-0 px-6 py-6 text-sm text-[rgb(var(--meadow-ink)/0.78)]">
-                <div className="flex items-start gap-3 border-b border-[rgba(var(--meadow-primary)/0.08)] py-5">
-                  <span className="mt-0.5 inline-flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[rgba(var(--meadow-primary)/0.1)] font-serif text-base font-semibold text-[rgb(var(--meadow-primary))]">
-                    1
-                  </span>
-                  <div className="space-y-1">
-                    <dt className="font-semibold text-[rgb(var(--meadow-ink))]">Find your biggest time vampire</dt>
-                    <dd className="text-sm">
-                      We map the tasks eating your evenings—like invoice follow-ups that burn 28 hours every month—and see what they're costing you in dollars.
-                    </dd>
                   </div>
                 </div>
-                <div className="flex items-start gap-3 border-b border-[rgba(var(--meadow-primary)/0.08)] py-5">
-                  <span className="mt-0.5 inline-flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[rgba(var(--meadow-primary)/0.1)] font-serif text-base font-semibold text-[rgb(var(--meadow-primary))]">
-                    2
-                  </span>
-                  <div className="space-y-1">
-                    <dt className="font-semibold text-[rgb(var(--meadow-ink))]">See the numbers before you spend</dt>
-                    <dd className="text-sm">
-                      You walk away with savings, costs, and ROI spelled out so you can decide if it's worth it—no guesswork, no jargon.
-                    </dd>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3 py-5">
-                  <span className="mt-0.5 inline-flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[rgba(var(--meadow-primary)/0.1)] font-serif text-base font-semibold text-[rgb(var(--meadow-primary))]">
-                    3
-                  </span>
-                  <div className="space-y-1">
-                    <dt className="font-semibold text-[rgb(var(--meadow-ink))]">Turn it on within weeks</dt>
-                    <dd className="text-sm">
-                      The plan includes a simple checklist, training options, and guardrails so your team starts using it fast—and keeps using it.
-                    </dd>
-                  </div>
-                </div>
-              </dl>
-              <div className="border-t border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.05)] px-6 py-4 text-xs text-[rgb(var(--meadow-ink)/0.65)]">
-                <p>We send a written summary within 48 hours. If it's not helpful, we haven't earned your business.</p>
               </div>
             </div>
           </div>
