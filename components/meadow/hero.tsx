@@ -79,7 +79,7 @@ export default function MeadowHero() {
                     src={FounderImage}
                     alt="Alejandro Dinsmore, Founder of Meadow"
                     fill
-                    className="object-cover"
+                    className="object-cover object-center lg:object-[center_30%]"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     priority
                   />
