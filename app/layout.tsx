@@ -41,7 +41,7 @@ const nacelle = localFont({
 export const metadata = {
   title: "Meadow | Practical AI for Operations",
   description:
-    "Meadow partners with SMB operators to ship governed AI automations, ROI roadmaps, and production pilots in weeks.",
+    "Meadow partners with SMB operators to ship governed AI automations, clear savings plans, and production pilots in weeks.",
 };
 
 export default function RootLayout({

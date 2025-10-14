@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Meadow | Practical AI for Operations",
   description:
-    "Meadow builds AI roadmaps and automation pilots for $500k–$10M revenue operators, turning manual workflows into governed, measurable wins.",
+    "Meadow builds AI game plans and automation pilots for $500k–$10M operators, cutting manual work and unlocking real savings without hiring a full AI team.",
 };
 
 import MeadowHero from "@/components/meadow/hero";

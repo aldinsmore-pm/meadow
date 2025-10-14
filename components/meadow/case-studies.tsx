@@ -49,7 +49,7 @@ export default function MeadowCaseStudies() {
             Operators rely on Meadow when automations must ship
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Roadmaps are paired with done-with-you pilots. Every case below started with the free AI Roadmap session and moved to production inside the first 90 days.
+            Every Game Plan comes with hands-on help to ship the first win. Each story below started with the free AI Game Plan (Roadmap) session and was live inside the first 90 days.
           </p>
         </div>
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
@@ -62,7 +62,7 @@ export default function MeadowCaseStudies() {
                 <div className="flex items-center justify-between gap-3 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">
                   <span>{study.sector}</span>
                   <span className="rounded-full bg-[rgba(var(--meadow-primary)/0.15)] px-2 py-1 text-[rgb(var(--meadow-primary))]">
-                    Started with AI Roadmap
+                    Started with free AI Game Plan
                   </span>
                 </div>
                 <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">{study.headline}</h3>

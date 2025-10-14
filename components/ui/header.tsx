@@ -30,7 +30,7 @@ export default function Header() {
               href="#book-ai-roadmap"
               className="hidden rounded-full border border-[rgba(var(--meadow-primary)/0.2)] px-4 py-2 text-sm font-semibold text-[rgb(var(--meadow-ink))] transition hover:bg-[rgba(var(--meadow-muted)/0.8)] sm:inline-flex"
             >
-              Book AI Roadmap
+              Book free Game Plan
             </Link>
             <Link
               href="#start-chat"

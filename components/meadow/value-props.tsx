@@ -1,18 +1,18 @@
 const valueProps = [
   {
-    title: "Roadmaps stakeholders sign off on",
+    title: "Plans owners and managers can say yes to",
     description:
-      "We translate AI hype into ops reality with quantified ROI models, risk mitigation plans, and rollout playbooks everyone can approve.",
+      "We turn vague AI ideas into simple numbers: hours saved, cost to build, and when it pays back. Everyone sees the upside before you spend a dollar.",
   },
   {
-    title: "Automations tuned for your stack",
+    title: "Automations that plug into what you already use",
     description:
-      "From ERPs to vertical SaaS, we design LLM-powered workflows that snap into the tools your team already uses and govern access from day one.",
+      "From QuickBooks to industry-specific tools, we design workflows that sit on top of your current systems and keep data access locked down from day one.",
   },
   {
-    title: "Change management baked in",
+    title: "People-first rollout support",
     description:
-      "Enable adoption with training, QA loops, and human-in-the-loop guardrails so your ops team feels supported—not replaced.",
+      "We handle training, quality checks, and the human hand-offs so your team feels supported—not replaced—when the automation goes live.",
   },
 ];
 
@@ -25,10 +25,10 @@ export default function MeadowValueProps() {
             Why operators choose Meadow
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Your AI partner for pragmatic, measurable wins
+            Your AI partner for real savings and smoother days
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Every engagement is designed to surface quick automation gains while building the governance that unlocks sustainable scale.
+            Every project is scoped to cut obvious pain first, then set you up to keep improving without needing a full-time AI hire.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2">
