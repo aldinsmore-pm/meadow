@@ -73,8 +73,8 @@ export default function MeadowHero() {
               <div className="absolute inset-0 -z-10">
                 <div className="absolute -right-20 top-0 h-40 w-40 rounded-full bg-[rgba(var(--meadow-warm)/0.7)] blur-3xl" />
               </div>
-              <div className="flex flex-col gap-0 lg:min-h-[460px] lg:flex-row">
-                <div className="relative min-h-[320px] flex-1 overflow-hidden border-b border-[rgba(var(--meadow-primary)/0.1)] lg:min-h-0 lg:border-b-0 lg:border-r">
+              <div className="flex flex-col gap-0 lg:min-h-[420px] lg:flex-row">
+                <div className="relative min-h-[280px] flex-1 overflow-hidden border-b border-[rgba(var(--meadow-primary)/0.1)] lg:min-h-0 lg:border-b-0 lg:border-r">
                   <Image
                     src={FounderImage}
                     alt="Alejandro Dinsmore, Founder of Meadow"
@@ -89,7 +89,7 @@ export default function MeadowHero() {
                   </div>
                 </div>
                 <div className="flex flex-1 flex-col justify-between">
-                  <div className="border-b border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.05)] px-6 py-4">
+                  <div className="border-b border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.05)] px-5 py-3">
                     <div className="flex items-center justify-between gap-4">
                       <div>
                         <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-primary))]">
@@ -104,8 +104,8 @@ export default function MeadowHero() {
                       </span>
                     </div>
                   </div>
-                  <dl className="grid gap-0 px-6 py-6 text-sm text-[rgb(var(--meadow-ink)/0.78)]">
-                    <div className="flex items-start gap-3 border-b border-[rgba(var(--meadow-primary)/0.08)] py-5">
+                  <dl className="grid gap-0 px-5 py-5 text-sm text-[rgb(var(--meadow-ink)/0.78)]">
+                    <div className="flex items-start gap-3 border-b border-[rgba(var(--meadow-primary)/0.08)] py-4">
                       <span className="mt-0.5 inline-flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[rgba(var(--meadow-primary)/0.1)] font-serif text-base font-semibold text-[rgb(var(--meadow-primary))]">
                         1
                       </span>
@@ -116,7 +116,7 @@ export default function MeadowHero() {
                         </dd>
                       </div>
                     </div>
-                    <div className="flex items-start gap-3 border-b border-[rgba(var(--meadow-primary)/0.08)] py-5">
+                    <div className="flex items-start gap-3 border-b border-[rgba(var(--meadow-primary)/0.08)] py-4">
                       <span className="mt-0.5 inline-flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[rgba(var(--meadow-primary)/0.1)] font-serif text-base font-semibold text-[rgb(var(--meadow-primary))]">
                         2
                       </span>
@@ -127,7 +127,7 @@ export default function MeadowHero() {
                         </dd>
                       </div>
                     </div>
-                    <div className="flex items-start gap-3 py-5">
+                    <div className="flex items-start gap-3 py-4">
                       <span className="mt-0.5 inline-flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[rgba(var(--meadow-primary)/0.1)] font-serif text-base font-semibold text-[rgb(var(--meadow-primary))]">
                         3
                       </span>
@@ -139,7 +139,7 @@ export default function MeadowHero() {
                       </div>
                     </div>
                   </dl>
-                  <div className="border-t border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.04)] px-6 py-5 text-sm text-[rgb(var(--meadow-ink)/0.7)]">
+                  <div className="border-t border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-primary)/0.04)] px-5 py-4 text-sm text-[rgb(var(--meadow-ink)/0.7)]">
                     <p>
                       "I started Meadow after a decade of running operations at my own company and feeling like the bottleneck. This plan is the exact playbook I wish someone had handed me years ago."
                     </p>
