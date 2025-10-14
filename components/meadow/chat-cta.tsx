@@ -3,15 +3,15 @@ import Link from "next/link";
 const prompts = [
   {
     title: "Find My Automations",
-    description: "Share your team size, systems, and manual pain points. The chat drafts three automation ideas with ROI ranges.",
+    description: "Answer a handful of questions about your team and tasks. We’ll send back three automation ideas with time and dollar savings.",
   },
   {
     title: "ROI Calculator",
-    description: "Upload a CSV or describe your workflow volume to model savings, cost to build, and payback period.",
+    description: "Upload a simple spreadsheet or describe your volume. Get a clear savings estimate, build cost, and payback date.",
   },
   {
-    title: "Executive Summary",
-    description: "Generate stakeholder-ready slides outlining risks, compliance guardrails, and change management steps.",
+    title: "Share with your team",
+    description: "Turn the chat output into a short summary you can forward to partners, finance, or the floor manager for quick sign-off.",
   },
 ];
 
@@ -22,16 +22,16 @@ export default function MeadowChatCta() {
         <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              Start the conversation in under 2 minutes
+              Get tailored automation ideas without a sales call
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Meadow’s guided chat captures your ops context and delivers curated automations, ROI estimates, and governance templates your leadership can review instantly.
+              Meadow’s guided chat captures the day-to-day details of your shop and gives you plain-language ideas, savings estimates, and rollout steps you can share immediately.
             </p>
             <Link
               href="#book-ai-roadmap"
               className="inline-flex items-center justify-center rounded-full bg-[rgb(var(--meadow-primary))] px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-[rgba(var(--meadow-primary)/0.25)] transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary))]/90"
             >
-              Book the AI Roadmap and unlock the chat
+              Book the free Game Plan (Roadmap) to unlock the chat
             </Link>
           </div>
           <div className="space-y-4">

@@ -1,18 +1,18 @@
 const faqs = [
   {
-    question: "What happens during the free AI Roadmap?",
+    question: "What happens during the free AI Game Plan (Roadmap)?",
     answer:
-      "We spend 90 minutes reviewing your current workflows, tech stack, and compliance requirements. Together we score automation ideas, run first-pass ROI numbers, and agree on the pilot you want to see in production.",
+      "We spend 90 minutes digging into the jobs slowing your team down, the tools you already use, and any rules we need to follow. Together we rank ideas, run first-pass savings numbers, and pick the pilot you want working first.",
   },
   {
     question: "How soon do we see something working?",
     answer:
-      "Most teams greenlight a pilot within 48 hours of the roadmap delivery. Meadow co-builds with your operators so you typically have a governed, human-in-the-loop workflow live in 30 days or less.",
+      "Most teams greenlight a pilot within 48 hours of getting the plan. Meadow co-builds with your operators so you usually have a governed, human-in-the-loop workflow live in about 30 days.",
   },
   {
     question: "Which systems do you integrate with?",
     answer:
-      "We meet you where you work—ERPs, EMRs, TMS, CRMs, or bespoke databases. Part of the roadmap deliverable includes the integration path, security posture, and prompts tuned for your stack.",
+      "We meet you where you work—ERPs, EMRs, TMS, CRMs, or homegrown spreadsheets. Part of the plan includes the integration path, security steps, and prompts tuned for your stack.",
   },
   {
     question: "How do you handle data security and compliance?",
@@ -20,9 +20,9 @@ const faqs = [
       "Every engagement includes a risk register, access controls, and vendor evaluation templates. If you have HIPAA, SOC 2, or internal guardrails, we map automation steps so reviewers can approve quickly.",
   },
   {
-    question: "What does working with Meadow cost after the roadmap?",
+    question: "What does working with Meadow cost after the plan?",
     answer:
-      "Pilot implementations usually start between $15k–$40k depending on scope. We align on pricing during the roadmap once the automation complexity and governance needs are clear.",
+      "Pilot builds usually start between $15k–$40k depending on scope. We align on pricing during the plan once the automation complexity and guardrails are clear.",
   },
 ];
 
@@ -35,7 +35,7 @@ export default function MeadowFaq() {
             Still have questions?
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Everything you need before booking the AI Roadmap
+            Everything you need before booking the free Game Plan
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
             If you need a deeper technical review or security questionnaire, email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:hello@meadow.ai">hello@meadow.ai</a> and we&rsquo;ll line it up.

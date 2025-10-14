@@ -1,7 +1,7 @@
 const testimonials = [
   {
     quote:
-      "Meadow helped us identify automations that saved 320 labor hours in the first quarter. Their roadmap meant finance and compliance signed off immediately.",
+      "Meadow helped us spot automations that saved 320 labor hours in the first quarter. Their plan made it easy for finance and compliance to sign off immediately.",
     author: "Sasha Patel",
     role: "COO, BrightLedger Accounting",
   },
@@ -13,7 +13,7 @@ const testimonials = [
   },
   {
     quote:
-      "We finally have a governed way to evaluate AI bets. The ROI calculator and change plan gave our board confidence to invest.",
+      "We finally have a governed way to pick AI bets. The ROI calculator and rollout plan gave our board confidence to invest.",
     author: "Laura Kim",
     role: "VP Operations, Fieldstone Logistics",
   },
@@ -25,7 +25,7 @@ export default function MeadowTestimonials() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Trusted by operators shipping AI automations
+            Trusted by owners shipping real automations
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
             Every engagement ends with a repeatable playbook, not just insights. Here’s what leaders say about working with Meadow.

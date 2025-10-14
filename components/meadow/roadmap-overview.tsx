@@ -2,19 +2,19 @@ const roadmapMoments = [
   {
     title: "Before we meet",
     description:
-      "Send us the workflows on your mind. We review volumes, systems, and governance requirements so the session is focused on what matters.",
+      "Send a quick list of the jobs slowing you down. We look at volumes, software, and who’s involved so our call stays focused.",
     note: "Prep time: 1 business day",
   },
   {
-    title: "During the AI Roadmap",
+    title: "During the AI Game Plan",
     description:
-      "We align on goals, score automation bets across impact and feasibility, and outline the data + change plan needed for each.",
+      "We walk through each idea, rate how much time or cash it saves, check what tools are needed, and note any guardrails.",
     note: "90-minute working session",
   },
   {
     title: "48 hours after",
     description:
-      "Receive a board-ready deck with ROI models, compliance guardrails, and a pilot launch checklist tailored to your stack.",
+      "Get a simple packet with savings numbers, risk notes, and a step-by-step pilot checklist tailored to your tools.",
     note: "Delivered as PDF + slides",
   },
 ];
@@ -22,15 +22,15 @@ const roadmapMoments = [
 const roadmapDeliverables = [
   {
     label: "Prioritized automations",
-    detail: "3–5 initiatives with projected savings, cost to build, and operational prerequisites.",
+    detail: "3–5 plays with projected savings, what they cost to build, and what needs to be in place first.",
   },
   {
     label: "Stakeholder alignment kit",
-    detail: "Talking points, risk register, and approval workflow so finance, compliance, and ops can sign off fast.",
+    detail: "Talking points, risk list, and approval steps so finance, compliance, and ops can sign off fast.",
   },
   {
     label: "Pilot launch sequence",
-    detail: "30-60-90 plan with owners, training cadence, and governance checklist to keep adoption on track.",
+    detail: "30-60-90 plan with owners, training cadence, and guardrails to keep adoption on track.",
   },
 ];
 
@@ -40,13 +40,13 @@ export default function MeadowRoadmapOverview() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.2)] bg-[rgba(var(--meadow-muted)/0.8)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-primary))]">
-            What the AI Roadmap includes
+            What the free Game Plan includes
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Every session ends with a plan you can run immediately
+            Every session ends with a plan you can put to work this month
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            Use the free roadmap to de-risk automation bets, align leadership, and understand the resources required before you commit to a build.
+            Use the free session to pressure-test automation ideas, make sure leadership is on board, and understand the cost before you greenlight a build.
           </p>
         </div>
 

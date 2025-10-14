@@ -97,7 +97,7 @@ export default function MeadowRoiCalculator() {
               Forecast savings before you commit to a build
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Adjust the levers below to estimate labor savings, payback period, and first-year ROI for your top automation candidate. We use this during the AI Roadmap to validate the business case.
+              Adjust the levers below to estimate labor savings, payback period, and first-year ROI for your top automation candidate. We walk through the same math during the free AI Game Plan (Roadmap) so you know the upside before you build.
             </p>
             <div className="grid gap-3 sm:grid-cols-3">
               {presets.map((preset) => (
@@ -121,7 +121,7 @@ export default function MeadowRoiCalculator() {
             </div>
             <p className="text-sm text-[rgb(var(--meadow-ink)/0.65)]">
               {activePreset === "custom" ? (
-                <>Using custom assumptions. Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:roi@meadow.ai">roi@meadow.ai</a> to preload your exact numbers before the roadmap.</>
+                <>Using custom assumptions. Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:roi@meadow.ai">roi@meadow.ai</a> to preload your exact numbers before the Game Plan.</>
               ) : (
                 <>Want us to run the numbers with your actual data? Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:roi@meadow.ai">roi@meadow.ai</a> and we&rsquo;ll preload it before the call.</>
               )}
@@ -231,10 +231,10 @@ export default function MeadowRoiCalculator() {
                 href="#book-ai-roadmap"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[rgb(var(--meadow-primary))] px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary))]/90"
               >
-                Walk through this in the AI Roadmap
+                Walk through this in the free Game Plan
               </a>
               <p className="mt-3 text-[0.7rem] text-[rgb(var(--meadow-ink)/0.55)]">
-                ROI reflects labor savings vs. build plus 12 months of platform &amp; QA support. Adjust the sliders to pressure-test assumptions before the roadmap session.
+                ROI reflects labor savings vs. build plus 12 months of platform &amp; QA support. Adjust the sliders to pressure-test assumptions before the Game Plan session.
               </p>
             </div>
           </div>

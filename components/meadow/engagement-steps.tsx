@@ -1,21 +1,21 @@
 const steps = [
   {
-    title: "Signal scan",
+    title: "Workflow walk-through",
     description:
-      "We audit existing workflows, surface low-friction automation ideas, and flag data readiness in a 90-minute working session.",
-    deliverable: "Ops intelligence brief",
+      "We sit down with you and your leads, map the tasks eating hours, and flag quick wins you can actually hand to software.",
+    deliverable: "Plain-language summary of where time is leaking",
   },
   {
-    title: "AI Roadmap",
+    title: "AI Game Plan",
     description:
-      "Together we score opportunities across ROI, feasibility, and compliance. You leave with a prioritized roadmap and next-sprint resourcing plan.",
-    deliverable: "Stakeholder deck + ROI model",
+      "We rank every idea by money saved, effort to build, and any red tape. You leave knowing what to tackle first and what it will cost.",
+    deliverable: "One-page build order with savings and price tags",
   },
   {
     title: "Pilot launch",
     description:
-      "Meadow implements the top automation alongside your team, layering in QA, guardrails, and training. Most pilots ship in 30 days.",
-    deliverable: "Production-ready workflow",
+      "We build the top pick beside your team, handle the tech hookups, and train staff. Most clients go live in about a month.",
+    deliverable: "Live automation with training and guardrails",
   },
 ];
 
@@ -26,17 +26,17 @@ export default function MeadowEngagementSteps() {
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              A focused engagement built for momentum
+              A simple process that keeps you in control
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Skip the endless workshops. Meadow compresses discovery, roadmap, and pilot into a single engagement that keeps leadership aligned and your team in control.
+              Skip the endless workshops. Meadow moves from scoping to a working automation in one tight engagement so owners see proof fast.
             </p>
             <div className="rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/70 p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">What you can expect</h3>
               <ul className="mt-4 space-y-3 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
-                <li>• Dedicated Meadow partner embedded with your operators</li>
-                <li>• Secure workspace with governance templates and prompts</li>
-                <li>• Optional co-pilot support for internal enablement</li>
+                <li>• Dedicated Meadow partner who knows ops, not just AI jargon</li>
+                <li>• Secure shared workspace with checklists, scripts, and recordings</li>
+                <li>• Optional co-pilot support to train an internal champion</li>
               </ul>
             </div>
           </div>

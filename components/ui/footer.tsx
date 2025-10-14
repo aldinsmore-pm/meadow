@@ -4,7 +4,7 @@ import Logo from "./logo";
 
 const workLinks = [
   { label: "Engagement model", href: "#approach" },
-  { label: "AI Roadmap session", href: "#book-ai-roadmap" },
+  { label: "Free AI Game Plan", href: "#book-ai-roadmap" },
   { label: "Start the chat", href: "#start-chat" },
 ];
 
@@ -30,8 +30,8 @@ export default function Footer() {
             <div className="space-y-6">
               <Logo invert />
               <p className="max-w-sm text-sm leading-relaxed text-white/70">
-                Meadow is the operator-first partner for governed AI automations. We surface the
-                roadmap, build the pilot alongside your team, and make adoption stick.
+                Meadow is the operator-first partner for governed AI automations. We uncover the quick wins,
+                build the pilot alongside your team, and make sure adoption sticks.
               </p>
               <div className="space-y-4 text-sm text-white/70">
                 <div>
@@ -40,7 +40,7 @@ export default function Footer() {
                     href="https://cal.com"
                     className="mt-2 inline-flex items-center justify-center rounded-full bg-[rgb(var(--meadow-accent))] px-5 py-2 text-sm font-semibold text-[rgb(var(--meadow-ink))] transition hover:bg-[rgb(var(--meadow-accent))]/90"
                   >
-                    Book the AI Roadmap
+                    Book the free Game Plan
                   </a>
                 </div>
                 <div className="flex flex-col gap-1">
