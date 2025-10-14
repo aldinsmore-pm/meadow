@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import FounderImage from "@/public/images/founder-alejandro.jpg";
 
 const highlights = [
   "Reclaim 10-20 hours every week",
@@ -72,11 +74,14 @@ export default function MeadowHero() {
                 <div className="absolute -right-20 top-0 h-40 w-40 rounded-full bg-[rgba(var(--meadow-warm)/0.7)] blur-3xl" />
               </div>
               <div className="flex flex-col gap-0 lg:min-h-[460px] lg:flex-row">
-                <div className="relative flex-1 overflow-hidden border-b border-[rgba(var(--meadow-primary)/0.1)] lg:border-b-0 lg:border-r">
-                  <img
-                    src="/images/founder-alejandro.jpg"
+                <div className="relative min-h-[320px] flex-1 overflow-hidden border-b border-[rgba(var(--meadow-primary)/0.1)] lg:min-h-0 lg:border-b-0 lg:border-r">
+                  <Image
+                    src={FounderImage}
                     alt="Alejandro Dinsmore, Founder of Meadow"
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    priority
                   />
                   <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[rgba(0,0,0,0.55)] to-transparent px-5 py-4 text-white">
                     <p className="text-base font-semibold">Alejandro Dinsmore</p>
