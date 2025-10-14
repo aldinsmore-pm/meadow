@@ -12,8 +12,8 @@ export default function MeadowHero() {
   return (
     <section className="relative overflow-hidden bg-warm py-24 sm:py-28">
       <div className="absolute inset-0 -z-10 bg-linear-to-br from-[rgba(var(--meadow-warm)/0.9)] via-white/70 to-transparent" />
-      <div className="mx-auto flex max-w-6xl flex-col gap-16 px-4 sm:px-6">
-        <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <div className="mx-auto flex max-w-7xl flex-col gap-16 px-4 sm:px-6">
+        <div className="grid gap-12 lg:grid-cols-[1.25fr_0.75fr] lg:items-center">
           <div className="space-y-8">
             <div className="inline-flex items-center gap-3 rounded-md border border-[rgba(var(--meadow-primary)/0.25)] bg-white px-5 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-[rgb(var(--meadow-primary))] shadow-sm">
               For Small Business Owners
@@ -73,8 +73,8 @@ export default function MeadowHero() {
               <div className="absolute inset-0 -z-10">
                 <div className="absolute -right-20 top-0 h-40 w-40 rounded-full bg-[rgba(var(--meadow-warm)/0.7)] blur-3xl" />
               </div>
-              <div className="flex flex-col gap-0 lg:min-h-[380px] lg:flex-row">
-                <div className="relative min-h-[240px] flex-1 overflow-hidden border-b border-[rgba(var(--meadow-primary)/0.1)] lg:min-h-0 lg:border-b-0 lg:border-r">
+              <div className="flex flex-col gap-0 lg:min-h-[340px] lg:flex-row">
+                <div className="relative min-h-[220px] flex-1 overflow-hidden border-b border-[rgba(var(--meadow-primary)/0.1)] lg:min-h-0 lg:border-b-0 lg:border-r">
                   <Image
                     src={FounderImage}
                     alt="Alejandro Dinsmore, Founder of Meadow"
@@ -83,7 +83,7 @@ export default function MeadowHero() {
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     priority
                   />
-                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[rgba(0,0,0,0.55)] to-transparent px-5 py-3 text-white">
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[rgba(0,0,0,0.55)] to-transparent px-4 py-2 text-white">
                     <p className="text-base font-semibold">Alejandro Dinsmore</p>
                     <p className="text-sm text-white/80">Founder, Meadow</p>
                   </div>
