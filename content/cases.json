@@ -1,0 +1,54 @@
+[
+  {
+    "quote": "80 hrs/mo back, books close on time.",
+    "client": "BrightLedger",
+    "duration": "6 months",
+    "investment": "$18K",
+    "kpis": [
+      { "label": "Hours/mo saved", "value": "80" },
+      { "label": "Errors", "value": "-63%" },
+      { "label": "Close time", "value": "-3d" }
+    ],
+    "stack": ["QuickBooks", "Sheets"],
+    "dayToDay": "Ops no longer reconciling by hand; finance reviews exceptions only."
+  },
+  {
+    "quote": "Sales team doubled demos without burning out ops.",
+    "client": "Northwind Manufacturing",
+    "duration": "9 months",
+    "investment": "$24K",
+    "kpis": [
+      { "label": "Manual touches", "value": "-72%" },
+      { "label": "Lead routing", "value": "+100%" },
+      { "label": "CSAT", "value": "+12 pts" }
+    ],
+    "stack": ["HubSpot", "Slack", "Zapier"],
+    "dayToDay": "Tickets auto-triaged with owner alerts; revenue ops focus on experiments."
+  },
+  {
+    "quote": "Weekly planning dropped from six hours to one.",
+    "client": "Fieldstone Logistics",
+    "duration": "7 months",
+    "investment": "$21K",
+    "kpis": [
+      { "label": "Planner time", "value": "-83%" },
+      { "label": "Late loads", "value": "-41%" },
+      { "label": "Margin", "value": "+4.2%" }
+    ],
+    "stack": ["NetSuite", "BigQuery", "GSheets"],
+    "dayToDay": "Dispatch now runs from live dashboards with alerts for exceptions only."
+  },
+  {
+    "quote": "From 10pm approvals to daylight decisions.",
+    "client": "Atlas Clinics",
+    "duration": "6 months",
+    "investment": "$19K",
+    "kpis": [
+      { "label": "Cycle time", "value": "-58%" },
+      { "label": "Ops hours", "value": "-45/mo" },
+      { "label": "Revenue", "value": "+18%" }
+    ],
+    "stack": ["Airtable", "Make", "Twilio"],
+    "dayToDay": "Patient onboarding automations keep leadership focused on expansion, not approvals."
+  }
+]

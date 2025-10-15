@@ -1,0 +1,27 @@
+[
+  {
+    "id": "fit",
+    "q": "Are we a fit?",
+    "a": "We partner with operators running $2M-$20M revenue businesses who can dedicate an executive sponsor. Acceptance hovers around 30% to keep teams focused."
+  },
+  {
+    "id": "duration",
+    "q": "How long is a partnership?",
+    "a": "Typically 6–9 months. We stay through rollout, training, and stabilization so your operators are confident owning the automations."
+  },
+  {
+    "id": "investment",
+    "q": "What does investment look like?",
+    "a": "Engagements begin at $18K and flex with scope. Our teams plug into your tools—no hidden software costs."
+  },
+  {
+    "id": "team",
+    "q": "Who do we work with?",
+    "a": "You’ll pair with a Meadow partner and a field engineer embedded in your workflows. We also coordinate with finance and ops stakeholders weekly."
+  },
+  {
+    "id": "handoff",
+    "q": "How does handoff work?",
+    "a": "We document every automation, create runbooks, and train your team. Our process stepper receipts ensure nothing is lost in transition."
+  }
+]

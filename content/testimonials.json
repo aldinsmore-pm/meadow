@@ -1,0 +1,34 @@
+[
+  {
+    "quote": "The first month reclaimed 60 founder hours. By month three the ops lead was home for dinner every night.",
+    "name": "Alicia Grant",
+    "title": "Founder",
+    "company": "BrightLedger",
+    "investment": "$18K",
+    "duration": "6 mo"
+  },
+  {
+    "quote": "Meadow quietly rewired our revenue operations. Sales has double the qualified demos with the same headcount.",
+    "name": "Marcus Lee",
+    "title": "COO",
+    "company": "Northwind Manufacturing",
+    "investment": "$24K",
+    "duration": "9 mo"
+  },
+  {
+    "quote": "They worked inside our planning rituals. The team now trusts the automations because they helped build them.",
+    "name": "Priya Nandan",
+    "title": "Director of Operations",
+    "company": "Fieldstone Logistics",
+    "investment": "$21K",
+    "duration": "7 mo"
+  },
+  {
+    "quote": "Our clinics no longer wait on approvals. The Meadow crew paired with finance and had us self-sufficient by handoff.",
+    "name": "Dr. Evan Wells",
+    "title": "CEO",
+    "company": "Atlas Clinics",
+    "investment": "$19K",
+    "duration": "6 mo"
+  }
+]
