@@ -1,0 +1,40 @@
+[
+  {
+    "id": "brightledger",
+    "headline": "Closed the books two days faster with autonomous reconciliations",
+    "subtitle": "BrightLedger — 6 months — $18K",
+    "kpis": [
+      { "label": "Hours saved", "value": "140" },
+      { "label": "Manual tasks cut", "value": "64%" },
+      { "label": "Accuracy", "value": "99.4%" }
+    ],
+    "stack": ["QuickBooks", "Airbase", "Google Sheets"],
+    "changeBullet": "AP triage batch → zero manual tagging",
+    "quote": "“Month-end used to hijack our weekends. Now it closes itself.”"
+  },
+  {
+    "id": "parcelpath",
+    "headline": "Turned nightly order edits into a self-healing fulfillment queue",
+    "subtitle": "ParcelPath — 7 months — $22K",
+    "kpis": [
+      { "label": "Overtime eliminated", "value": "18 hrs/wk" },
+      { "label": "Exceptions caught", "value": "3.6x" },
+      { "label": "Payback", "value": "4.1", "unit": "mo" }
+    ],
+    "stack": ["Shopify", "Notion", "Slack"],
+    "changeBullet": "Manual CSV uploads → AI-assisted queue with approvals",
+    "quote": "“The queue rebalances itself. We finally log off before dinner.”"
+  },
+  {
+    "id": "northwind",
+    "headline": "Automated supplier onboarding without adding headcount",
+    "subtitle": "Northwind Foods — 6 months — $16K",
+    "kpis": [
+      { "label": "Vendors activated", "value": "3x" },
+      { "label": "Processing time", "value": "-72%" },
+      { "label": "Ops cost", "value": "-28%" }
+    ],
+    "stack": ["Airtable", "DocuSign", "Make"],
+    "changeBullet": "Email ping-pong → structured intake with automated QA"
+  }
+]

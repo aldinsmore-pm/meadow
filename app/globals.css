@@ -1,0 +1,78 @@
+:root {
+  --bg-page: #F6F4EF;
+  --bg-surface: #F6F4EF;
+  --fg-primary: #0E1412;
+  --accent: #2F8F5B;
+  --accent-strong: #1F5A43;
+  --accent-rare: #C07A4C;
+  --line-weak: #CBD5D1;
+  --line-strong: #334155;
+  --font-sans: 'Inter', 'ui-sans-serif', 'system-ui';
+  --font-serif: 'Fraunces', 'Georgia', 'serif';
+  --font-mono: 'IBM Plex Mono', 'ui-monospace', 'SFMono-Regular';
+}
+
+html {
+  color: var(--fg-primary);
+  background: var(--bg-page);
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.surface {
+  position: relative;
+  background: var(--bg-surface);
+}
+
+.surface:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .35;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/><feComponentTransfer><feFuncA type='table' tableValues='0 0 .015 .03'/></feComponentTransfer></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.reveal {
+  transform: translateY(16px);
+  opacity: 0;
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+
+.reveal.in {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .surface:after {
+    display: none;
+  }
+
+  .reveal {
+    transition: none;
+    transform: none;
+    opacity: 1;
+  }
+}
