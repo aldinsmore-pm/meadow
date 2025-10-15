@@ -39,10 +39,11 @@ export function Button({
     .join(" ");
 
   if (asChild && React.isValidElement(children)) {
-    return React.cloneElement(children, {
-      className: [classes, children.props.className].filter(Boolean).join(" "),
+    const child = children as React.ReactElement<{ className?: string }>;
+    return React.cloneElement(child, {
+      className: [classes, child.props.className].filter(Boolean).join(" "),
       ...props,
-    });
+    } as React.Attributes & { className?: string });
   }
 
   return (
