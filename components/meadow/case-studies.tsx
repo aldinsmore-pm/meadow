@@ -3,11 +3,12 @@ const caseStudies = [
     company: "BrightLedger Accounting",
     sector: "Accounting Firm",
     headline: "\"I was working until 9pm every night. Now I'm home for dinner.\"",
+    engagement: "6-month partnership • $18K investment",
     summary:
-      "Sasha was buried in a 3-week invoice backlog, missing her kids' bedtimes. We automated vendor intake and invoice coding in 18 days. Now she leaves at 5pm and the work still gets done.",
+      "We automated vendor intake and invoice coding, integrating directly with their existing systems. Now the team closes books on time without late nights, and Sasha only steps in for exceptions.",
     metrics: [
       { label: "Time reclaimed", value: "80 hrs/mo" },
-      { label: "Left office by 5pm", value: "Every day" },
+      { label: "Invoice backlog", value: "Cleared in 3 weeks" },
       { label: "Payback period", value: "2.5 months" },
     ],
   },
@@ -15,24 +16,26 @@ const caseStudies = [
     company: "Atlas Clinics",
     sector: "Healthcare Practice",
     headline: "\"Staff stopped complaining about the paperwork burden\"",
+    engagement: "9-month partnership • $34K investment",
     summary:
-      "Prior authorizations were taking 2 days—delaying patient care and burning out staff. Now it's 6 hours, nurses only review exceptions, and patient satisfaction scores jumped.",
+      "We streamlined prior authorizations, layered AI checks for exceptions, and trained nurses on the new process. The team now handles approvals in hours, not days, and morale is up.",
     metrics: [
       { label: "Turnaround time", value: "48h → 6h" },
-      { label: "Staff relief", value: "Immediate" },
-      { label: "Launched in", value: "28 days" },
+      { label: "Staff workload", value: "-32% manual effort" },
+      { label: "Go-live", value: "Phase 1 in 6 weeks" },
     ],
   },
   {
     company: "Fieldstone Logistics",
     sector: "Freight Company",
     headline: "\"Finally stopped living in my email at midnight\"",
+    engagement: "12-month partnership • $28K investment",
     summary:
-      "Laura was manually tracking 80+ shipments per week, constantly checking status updates at all hours. Now the system monitors everything and only alerts her when there's an actual problem.",
+      "We built shipment monitoring automations that flag only real issues, trained dispatchers on escalation paths, and set up weekly optimizations. Laura no longer checks status updates after hours.",
     metrics: [
       { label: "Manual updates", value: "Eliminated 68%" },
       { label: "Delivery performance", value: "+12%" },
-      { label: "Sleep quality", value: "Restored" },
+      { label: "Owner escalations", value: "Only critical" },
     ],
   },
 ];
@@ -43,13 +46,13 @@ export default function MeadowCaseStudies() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="max-w-2xl">
           <span className="inline-flex items-center justify-center rounded-md border border-[rgba(var(--meadow-trust-blue)/0.3)] bg-[rgba(var(--meadow-warm)/0.8)] px-5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-trust-blue))]">
-            Real results
+            Partner outcomes
           </span>
           <h2 className="heading-serif mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            From overwhelmed and exhausted to in control
+            The kind of results selective owners hire us for
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.72)]">
-            These owners were working nights and weekends, missing family time, and constantly stressed. Now they're not. Here's what changed in less than 30 days.
+            Each engagement is tailored, multi-month, and embedded. Here's what partnership looks like once we align on fit, scope, and investment.
           </p>
         </div>
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
@@ -62,7 +65,7 @@ export default function MeadowCaseStudies() {
                 <div className="flex items-center justify-between gap-3 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">
                   <span>{study.sector}</span>
                   <span className="rounded-full bg-[rgba(var(--meadow-primary)/0.15)] px-2 py-1 text-[rgb(var(--meadow-primary))]">
-                    Started with free plan
+                    {study.engagement}
                   </span>
                 </div>
                 <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">{study.headline}</h3>

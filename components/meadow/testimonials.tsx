@@ -5,7 +5,7 @@ const testimonials = [
     author: "Sasha Patel",
     role: "Owner, BrightLedger Accounting",
     location: "Austin, TX",
-    years: "Client since 2023",
+    engagement: "6-month engagement • Accounting automation • $18K investment",
     rating: 5,
   },
   {
@@ -14,7 +14,7 @@ const testimonials = [
     author: "Jamal Rivers",
     role: "Owner, Atlas Clinics",
     location: "Denver, CO",
-    years: "Client since 2024",
+    engagement: "9-month engagement • Healthcare workflow automation • $34K investment",
     rating: 5,
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     author: "Laura Kim",
     role: "Owner, Fieldstone Logistics",
     location: "Memphis, TN",
-    years: "Client since 2022",
+    engagement: "12-month engagement • Logistics monitoring system • $28K investment",
     rating: 5,
   },
 ];
@@ -34,13 +34,13 @@ export default function MeadowTestimonials() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center justify-center rounded-md border border-[rgba(var(--meadow-trust-blue)/0.3)] bg-[rgba(var(--meadow-warm)/0.8)] px-5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-trust-blue))]">
-            In their words
+            What Partners Say
           </span>
           <h2 className="heading-serif mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
             "I was on the edge of burnout. Now I'm not."
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.7)]">
-            These owners were stretched thin—working late nights, missing family time, feeling overwhelmed. Here's what they say about life after getting their time back.
+            These business owners went through our discovery process, committed to a multi-month engagement, and scaled their operations. Here's what that looked like.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -66,8 +66,8 @@ export default function MeadowTestimonials() {
                 <span className="block text-xs font-normal uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.6)]">
                   {testimonial.role} • {testimonial.location}
                 </span>
-                <span className="mt-1 block text-[0.7rem] uppercase tracking-wide text-[rgb(var(--meadow-ink)/0.5)]">
-                  {testimonial.years}
+                <span className="mt-2 block text-[0.7rem] leading-relaxed text-[rgb(var(--meadow-ink)/0.5)]">
+                  {testimonial.engagement}
                 </span>
               </figcaption>
             </figure>
@@ -75,7 +75,7 @@ export default function MeadowTestimonials() {
         </div>
         <div className="mt-10 rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-[rgba(var(--meadow-warm)/0.6)] p-6 text-center text-sm text-[rgb(var(--meadow-ink)/0.68)]">
           <p>
-            Want to talk to a fellow owner before booking? Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:hello@meadow.ai">hello@meadow.ai</a> and we'll connect you.
+            Wondering if this is right for you? Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:hello@meadow.ai">hello@meadow.ai</a> and we'll have a brief conversation about fit before you apply—no pressure, just clarity.
           </p>
         </div>
       </div>

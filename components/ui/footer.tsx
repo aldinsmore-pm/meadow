@@ -3,9 +3,9 @@ import Link from "next/link";
 import Logo from "./logo";
 
 const workLinks = [
-  { label: "Engagement model", href: "#approach" },
-  { label: "Free AI Game Plan", href: "#book-ai-roadmap" },
-  { label: "Start the chat", href: "#start-chat" },
+  { label: "Partnership model", href: "#approach" },
+  { label: "Apply to partner", href: "#book-ai-roadmap" },
+  { label: "Discovery process", href: "#start-chat" },
 ];
 
 const resourceLinks = [
@@ -30,8 +30,9 @@ export default function Footer() {
             <div className="space-y-6">
               <Logo invert />
               <p className="max-w-sm text-sm leading-relaxed text-white/70">
-                Meadow is the operator-first partner for governed AI automations. We uncover the quick wins,
-                build the pilot alongside your team, and make sure adoption sticks.
+                Meadow is the operator-first partner for governed AI automations. We work closely with a small
+                number of businesses each year, building and scaling automations alongside your team until the
+                results stick.
               </p>
               <div className="space-y-4 text-sm text-white/70">
                 <div>
@@ -40,7 +41,7 @@ export default function Footer() {
                     href="https://cal.com"
                     className="mt-2 inline-flex items-center justify-center rounded-full bg-[rgb(var(--meadow-accent))] px-5 py-2 text-sm font-semibold text-[rgb(var(--meadow-ink))] transition hover:bg-[rgb(var(--meadow-accent))]/90"
                   >
-                    Book the free Game Plan
+                    Schedule discovery call
                   </a>
                 </div>
                 <div className="flex flex-col gap-1">

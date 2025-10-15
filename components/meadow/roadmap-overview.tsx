@@ -1,36 +1,36 @@
 const roadmapMoments = [
   {
-    title: "Before we meet",
+    title: "Before the call",
     description:
-      "Just send us a quick list of the tasks eating your time. We'll review it so our conversation stays focused on what matters most to you.",
-    note: "Takes 1 business day",
+      "You share the workflows, systems, and team context you want us to evaluate. We review everything so the conversation stays focused on high-impact opportunities.",
+    note: "Preparation • 1 business day",
   },
   {
-    title: "During your Time-Back Plan session",
+    title: "During the discovery session",
     description:
-      "We walk through your day together, talk about what's taking too long, and figure out what will save you the most time for the least hassle.",
-    note: "90-minute conversation",
+      "We map your current processes, quantify time costs, and assess technical readiness. Together we determine if systematic automation can deliver the ROI you're targeting.",
+    note: "Working session • 90 minutes",
   },
   {
-    title: "Within 2 days after",
+    title: "After the session",
     description:
-      "Get a simple plan that shows exactly what you'll save, what it will cost, and the steps to get started—no tech jargon, just a clear roadmap.",
-    note: "PDF + slides you can share",
+      "If there's clear alignment, we deliver a partnership proposal outlining scope, timeline, investment, and expected outcomes. If not, we'll tell you why and point you elsewhere.",
+    note: "Next steps • Within 2 business days",
   },
 ];
 
 const roadmapDeliverables = [
   {
-    label: "Your top time-savers ranked",
-    detail: "3–5 specific tasks you can fix, how many hours each will save, and what each costs to set up.",
+    label: "Fit assessment",
+    detail: "Clarity on whether our partnership model and automation approach align with your goals, workflows, and technical environment.",
   },
   {
-    label: "A plan your team will understand",
-    detail: "Simple talking points so you can explain the changes to your team and get everyone on board.",
+    label: "ROI snapshot",
+    detail: "Preliminary projections for time saved, cost to implement, and breakeven timelines—grounded in your actual numbers.",
   },
   {
-    label: "Your 30-60-90 day roadmap",
-    detail: "Clear next steps showing who does what and when, so you're not left wondering what comes next.",
+    label: "Engagement outline",
+    detail: "If we're aligned, you'll receive a 3-12 month roadmap detailing phases, responsibilities, and investment structure.",
   },
 ];
 
@@ -40,13 +40,13 @@ export default function MeadowRoadmapOverview() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center justify-center rounded-md border border-[rgba(var(--meadow-trust-blue)/0.3)] bg-[rgba(var(--meadow-warm)/0.8)] px-5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-trust-blue))]">
-            What the free plan includes
+            Discovery Process
           </span>
           <h2 className="heading-serif mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            One 90-minute call. A plan you can act on today.
+            How we evaluate partnership fit in 90 minutes
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.7)]">
-            No fluffy strategy deck. No vague recommendations. Just a clear roadmap showing exactly which tasks to kill, how many hours you'll get back, and what it costs. Then you decide.
+            This isn't a sales call or a free audit. It's a working session to determine if systematic automation will deliver meaningful ROI for your business—and whether our approach aligns with how you operate.
           </p>
         </div>
 

@@ -13,13 +13,13 @@ export default function MeadowTrustBar() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex flex-col items-center text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-trust-blue))]">
-            Trusted across the US &amp; Canada
+            Selective partnerships
           </p>
           <h2 className="heading-serif mt-3 text-2xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-3xl">
-            47 small business owners rely on Meadow to get their evenings back
+            Working with 17 partners across specialized industries
           </h2>
           <p className="mt-3 max-w-2xl text-sm text-[rgb(var(--meadow-ink)/0.65)]">
-            Owners bring us the busywork that keeps them late at the office. Here are a few of their wins once Meadow took over the repetitive tasks.
+            We focus on a small portfolio of owners each year so we can go deep with their teams. Here are a few of the results we've delivered together.
           </p>
         </div>
 
@@ -34,11 +34,7 @@ export default function MeadowTrustBar() {
           ))}
         </ul>
 
-        <div className="mt-8 rounded-xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/70 p-5 text-center text-xs text-[rgb(var(--meadow-ink)/0.6)]">
-          <p>
-            38 of these owners booked their free Time-Back Plan after 8pm once the house was quiet. We work on your schedule.
-          </p>
-        </div>
+        
       </div>
     </section>
   );

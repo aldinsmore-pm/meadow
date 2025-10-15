@@ -1,8 +1,8 @@
 const faqs = [
   {
-    question: "What happens during the free Time-Back Plan session?",
+    question: "What happens during the discovery call?",
     answer:
-      "We spend 90 minutes talking about what's eating up your time, what tools you're already using, and what you've tried before. We'll figure out together which tasks would save you the most time and be easiest to fix first.",
+      "We spend 90 minutes understanding your workflows, technical environment, and growth goals. We'll evaluate whether systematic automation will deliver meaningful ROI for your business—and assess if our partnership model aligns with how you operate.",
   },
   {
     question: "How quickly will I actually save time?",
@@ -10,9 +10,9 @@ const faqs = [
       "Most business owners decide to move forward within a couple days of getting their plan. We work alongside your team, and typically you're saving hours every week within about a month.",
   },
   {
-    question: "Will this work with my current software?",
+    question: "Will this work with our existing systems?",
     answer:
-      "Yes. Whether you use QuickBooks, industry-specific software, or even just spreadsheets, we make it work with what you already have. No need to rip everything out and start over.",
+      "Yes. We integrate with what you already use—QuickBooks, industry-specific tools, spreadsheets, even custom databases. We'll also tell you upfront if your current stack isn't ready for systematic automation.",
   },
   {
     question: "Is my data safe? What about privacy?",
@@ -20,9 +20,9 @@ const faqs = [
       "Absolutely. We include security and access controls from day one. If you work in healthcare, finance, or have specific compliance needs, we'll make sure everything is locked down properly.",
   },
   {
-    question: "How much does this cost after the free plan?",
+    question: "What does a typical engagement cost?",
     answer:
-      "Setup usually runs between $15k–$40k depending on what you need. We'll give you exact pricing during your free session once we understand what you're trying to fix.",
+      "Partnership investments range from $15k–$45k depending on workflow complexity and engagement length (typically 6–9 months). You'll receive a detailed proposal after the discovery call if we both agree there's strong fit.",
   },
 ];
 
@@ -32,13 +32,13 @@ export default function MeadowFaq() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <div className="text-center">
           <span className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.2)] bg-[rgba(var(--meadow-muted)/0.8)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[rgb(var(--meadow-primary))]">
-            Questions?
+            FAQs for prospective partners
           </span>
           <h2 className="mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            "Sounds too good to be true. What's the catch?"
+            "We're selective. Here's how to know if we're aligned."
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.75)]">
-            No catch. Just answers to what every skeptical (smart) business owner asks. Still unsure? Email <a className="font-semibold text-[rgb(var(--meadow-primary))]" href="mailto:hello@meadow.ai">hello@meadow.ai</a> and we'll talk.
+            We work with a limited number of partners each quarter. Here are the details selective owners ask before deciding if it's worth applying.
           </p>
         </div>
         <div className="mt-12 space-y-4">

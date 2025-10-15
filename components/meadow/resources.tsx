@@ -25,16 +25,16 @@ export default function MeadowResources() {
         <div className="grid gap-12 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              Not ready to commit? Take these for free
+              Not sure yet? Start with these self-serve tools
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Tools and guides from business owners who were exactly where you are—overwhelmed by repetitive tasks. See how they created more space in their schedule. No email signup, no strings.
+              Tools and guides from business owners who were exactly where you are—overwhelmed by repetitive tasks and evaluating their options. Use them to quantify your opportunity before you apply.
             </p>
             <Link
               href="mailto:hello@meadow.ai"
               className="inline-flex items-center justify-center rounded-full border border-[rgba(var(--meadow-primary)/0.3)] px-6 py-3 text-sm font-semibold text-[rgb(var(--meadow-primary))] transition hover:bg-[rgba(var(--meadow-muted)/0.8)]"
             >
-              Get these free resources
+              Request access to resources
             </Link>
           </div>
           <div className="grid gap-4">

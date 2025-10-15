@@ -9,30 +9,30 @@ export default function MeadowFinalCta() {
           <div className="absolute -bottom-24 -right-24 h-56 w-56 rounded-full bg-[rgba(var(--meadow-trust-blue)/0.15)] blur-3xl" />
           <div className="relative space-y-6">
             <span className="inline-flex items-center justify-center rounded-md border border-[rgba(var(--meadow-trust-blue)/0.3)] bg-[rgba(var(--meadow-warm)/0.8)] px-5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-trust-blue))]">
-              Free time-back plan
+              Begin Your Application
             </span>
             <h2 className="heading-serif text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              Ready to reclaim your evenings?
+              Ready to work together?
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.72)]">
-              Book your free Time-Back Plan now. In 90 minutes, you'll know exactly which tasks are consuming your schedule—and have a clear plan to reclaim 10–20 hours every week starting this month.
+              Schedule a discovery call to see if we're aligned. In 90 minutes, we'll evaluate your workflows, assess technical fit, and determine whether a Meadow partnership will deliver the ROI you're aiming for.
             </p>
             <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
               <Link
                 href="https://cal.com"
                 className="inline-flex items-center justify-center rounded-md border-2 border-[rgb(var(--meadow-primary-dark))] bg-[rgb(var(--meadow-primary))] px-7 py-3 text-base font-semibold text-white shadow-lg shadow-[rgba(var(--meadow-primary-dark)/0.25)] transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary-dark))]"
               >
-                Book my free session
+                Schedule Discovery Call
               </Link>
               <Link
                 href="#start-chat"
                 className="inline-flex items-center justify-center rounded-md border-2 border-[rgba(var(--meadow-primary)/0.3)] bg-white px-7 py-3 text-base font-semibold text-[rgb(var(--meadow-primary))] transition hover:bg-[rgba(var(--meadow-primary)/0.08)]"
               >
-                Show me the calculator first
+                See Partnership Criteria
               </Link>
             </div>
             <p className="text-xs text-[rgb(var(--meadow-ink)/0.55)]">
-              Prefer a quick call first? Text us at <a href="tel:+15125551234" className="font-semibold text-[rgb(var(--meadow-primary))]">(512) 555-1234</a> and we’ll hold a spot for you.
+              Have questions about fit before applying? Email <a href="mailto:hello@meadow.ai" className="font-semibold text-[rgb(var(--meadow-primary))]">hello@meadow.ai</a> and we'll talk through it.
             </p>
           </div>
         </div>

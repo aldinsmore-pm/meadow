@@ -1,21 +1,21 @@
 const steps = [
   {
-    title: "Map your typical week (90 minutes)",
+    title: "Discovery & scoping (Month 1)",
     description:
-      "You walk us through a typical week—the late nights, the tasks you're stuck doing, the processes that need attention. We identify the top 3 tasks consuming most of your schedule.",
-    deliverable: "Know exactly what to prioritize first",
+      "We map your critical workflows, assess technical fit, and scope the automations that will deliver meaningful ROI. You meet the team you'll be working with and we define success together.",
+    deliverable: "Partnership plan and prioritized backlog",
   },
   {
-    title: "Get your escape plan (48 hours later)",
+    title: "Build, integrate, and train (Months 2-4)",
     description:
-      "We deliver a one-page plan showing exactly how many hours you'll reclaim, what it costs, and when you'll break even. No corporate jargon—just clear numbers you can act on today.",
-    deliverable: "Your roadmap to freedom",
+      "We design and implement automations alongside your team, run controlled pilots, and train the people who will own the workflows. Expect iterative launches, not a big bang.",
+    deliverable: "Live automations your team actually uses",
   },
   {
-    title: "Watch it work (starts week 2)",
+    title: "Optimize and expand (Months 5-6+)",
     description:
-      "We build it with your team watching, train them in plain English, and don't leave until it's running. You'll see hours coming back to your schedule within 18 days.",
-    deliverable: "Time back in your calendar, permanently",
+      "We monitor adoption, handle exceptions, and capture additional opportunities uncovered along the way. Partners often greenlight the next wave once the first proves out.",
+    deliverable: "Measured ROI and roadmap for phase two",
   },
 ];
 
@@ -26,17 +26,17 @@ export default function MeadowEngagementSteps() {
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              From first call to reclaiming your time: under 3 weeks
+              From discovery to measurable ROI: a 6–9 month journey
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              No six-month projects or endless consultants. We move fast because we know you're already stretched too thin. Here's exactly what happens.
+              We work as an embedded partner for months, not weeks. Here's how we move from initial discovery to live automations with your team fully bought in.
             </p>
             <div className="rounded-3xl border border-[rgba(var(--meadow-primary)/0.12)] bg-white/70 p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-[rgb(var(--meadow-ink))]">Why this actually works</h3>
               <ul className="mt-4 space-y-3 text-sm text-[rgb(var(--meadow-ink)/0.75)]">
-                <li>• No tech background needed—if you can use email, you can do this</li>
-                <li>• Your team won't revolt because we make them heroes, not victims</li>
-                <li>• You own it—we train someone on your team so you're never stuck</li>
+                <li>• Embedded partnership—we work alongside your operators, not over them</li>
+                <li>• Adoption-first—we design workflows your team actually wants to use</li>
+                <li>• Sustainable handoff—we train your people so nothing depends on us long-term</li>
               </ul>
             </div>
           </div>

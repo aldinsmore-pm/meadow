@@ -19,7 +19,7 @@ const sourceSerif = Source_Serif_4({
 export const metadata = {
   title: "Meadow | Get Your Evenings Back",
   description:
-    "Stop working until 9pm. Meadow helps small business owners reclaim 10–20 hours every week with a free Time-Back Plan and warm, done-with-you automations.",
+    "Stop working until 9pm. Meadow partners with selective business owners to reclaim 10–20 hours every week through custom, done-with-you automations.",
 };
 
 export default function RootLayout({

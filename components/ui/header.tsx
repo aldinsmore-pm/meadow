@@ -39,13 +39,13 @@ export default function Header() {
               href="#start-chat"
               className="inline-flex items-center justify-center rounded-md border-2 border-[rgb(var(--meadow-primary))] px-4 py-2 text-sm font-semibold text-[rgb(var(--meadow-primary))] transition hover:bg-[rgba(var(--meadow-primary)/0.08)]"
             >
-              Start with chat
+              Request a Consultation
             </Link>
             <Link
               href="#book-ai-roadmap"
               className="inline-flex items-center justify-center rounded-md border-2 border-[rgb(var(--meadow-primary-dark))] bg-[rgb(var(--meadow-primary))] px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-[rgba(var(--meadow-primary-dark)/0.2)] transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary-dark))]"
             >
-              Book free Time-Back Plan
+              Apply to Partner
             </Link>
           </div>
         </div>

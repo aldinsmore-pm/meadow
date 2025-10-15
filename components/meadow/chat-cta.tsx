@@ -22,16 +22,16 @@ export default function MeadowChatCta() {
         <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div className="space-y-6">
             <h2 className="text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-              Hate sales calls? Start here instead
+              Prefer to explore fit before scheduling?
             </h2>
             <p className="text-base text-[rgb(var(--meadow-ink)/0.75)]">
-              Answer a few questions about your typical week. Get instant time-savings ideas with real numbers—no pressure, no sales pitch, no one calling you. See what's possible, then decide.
+              Use our assessment to evaluate your workflows and see preliminary time-savings estimates. If there's strong potential for ROI, we'll reach out to schedule a discovery call.
             </p>
             <Link
               href="#book-ai-roadmap"
               className="inline-flex items-center justify-center rounded-full bg-[rgb(var(--meadow-primary))] px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-[rgba(var(--meadow-primary)/0.25)] transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary))]/90"
             >
-              Get your free Time-Back Plan to unlock chat
+              Begin Workflow Assessment
             </Link>
           </div>
           <div className="space-y-4">

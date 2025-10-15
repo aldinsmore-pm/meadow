@@ -239,7 +239,7 @@ export default function MeadowRoiCalculator() {
                 href="#book-ai-roadmap"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-md border-2 border-[rgb(var(--meadow-primary-dark))] bg-[rgb(var(--meadow-primary))] px-6 py-3 text-base font-semibold text-white shadow-lg shadow-[rgba(var(--meadow-primary-dark)/0.25)] transition hover:-translate-y-0.5 hover:bg-[rgb(var(--meadow-primary-dark))]"
               >
-                Walk through this during your free Time-Back Plan
+                Review this together during your discovery call
               </a>
               <p className="mt-3 text-xs text-[rgb(var(--meadow-ink)/0.6)]">
                 These numbers compare your time savings to setup and maintenance costs over 12 months. We'll review the math during your session so you can pressure-test every assumption.

@@ -1,18 +1,18 @@
 const valueProps = [
   {
-    title: "See exactly what's stealing your life",
+    title: "You have complex workflows worth systematizing",
     description:
-      "No more guessing which tasks waste the most time. We'll show you in dollars and hours exactly what each repetitive task costs you—so you know what to fix first.",
+      "We're built for businesses doing $2M-$20M in revenue with repetitive processes that are eating 15+ hours per week. If you're earlier stage or have simple needs, there are better (cheaper) options out there.",
   },
   {
-    title: "No expensive overhauls or months of implementation",
+    title: "Your team is open to changing how they work",
     description:
-      "Works with QuickBooks, your spreadsheets, whatever you use today. No ripping out systems or spending six months on 'digital transformation.' Just fast relief.",
+      "Automation only works if people actually use it. We need your team willing to adapt processes—not just leadership buy-in, but actual operational buy-in.",
   },
   {
-    title: "Zero resistance from your team",
+    title: "You're ready to invest for 12-18 month ROI",
     description:
-      "Your staff won't fight this because we make it ridiculously simple. They'll wonder why you didn't do it sooner—because they get their time back too.",
+      "Most partners break even in 6-9 months and hit 3-5x ROI by month 18. If you need immediate payback or are stretched financially, this isn't the right time.",
   },
 ];
 
@@ -22,13 +22,13 @@ export default function MeadowValueProps() {
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center justify-center rounded-md border border-[rgba(var(--meadow-trust-blue)/0.3)] bg-[rgba(var(--meadow-warm)/0.8)] px-5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[rgb(var(--meadow-trust-blue))]">
-            How we help
+            Who We Work With
           </span>
           <h2 className="heading-serif mt-6 text-pretty text-3xl font-semibold text-[rgb(var(--meadow-ink))] sm:text-4xl">
-            Tired of being the bottleneck in your own business?
+            We're selective about partnerships—here's what makes a great fit
           </h2>
           <p className="mt-4 text-base text-[rgb(var(--meadow-ink)/0.72)]">
-            Every hour you spend on busywork is an hour you can't spend growing. We'll show you which tasks to automate first—the ones consuming most of your time—and help you fix them fast.
+            We work closely with your team for months, not weeks. These three criteria help us determine if we can deliver the results you're looking for.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2">
