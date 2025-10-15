@@ -29,9 +29,9 @@ export function Button({
     primary:
       "bg-meadow-600 text-white shadow-card hover:-translate-y-px focus-visible:-translate-y-px active:translate-y-0 active:shadow-press",
     secondary:
-      "bg-fog text-ink border border-slate-300 hover:-translate-y-px focus-visible:-translate-y-px active:translate-y-0",
+      "bg-fog text-ink border border-[rgba(14,20,18,0.32)] hover:-translate-y-px focus-visible:-translate-y-px active:translate-y-0",
     "ghost-partner":
-      "bg-transparent text-ink border border-slate-300/60 hover:bg-wheat/40",
+      "bg-transparent text-ink border border-[rgba(14,20,18,0.28)] hover:bg-wheat/40",
   };
 
   const classes = [base, sizes[size], variants[variant], className]
