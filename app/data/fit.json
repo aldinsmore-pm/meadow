@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Operators who own the outcomes",
+    "proofs": [
+      "Ops, finance, or CX lead with decision authority",
+      "Willing to co-build and give fast feedback",
+      "Processes already documented in some form"
+    ],
+    "notFit": [
+      "No dedicated operator to partner with",
+      "Pure experimentation with no clear workflows",
+      "Expecting lift without change management"
+    ]
+  },
+  {
+    "title": "Data lives in the cloud",
+    "proofs": [
+      "Core work happens across SaaS tools and APIs",
+      "You can provision service accounts or OAuth access",
+      "Security review process ready to kick off"
+    ],
+    "notFit": [
+      "On-prem systems only with no integration path",
+      "Manual paperwork without digital capture",
+      "Shadow IT with blocked admin access"
+    ]
+  },
+  {
+    "title": "Urgency to reclaim capacity",
+    "proofs": [
+      "Nights and weekends are used for repetitive tasks",
+      "Leadership feels the drag on roadmap velocity",
+      "You have a backlog of automation ideas with no owner"
+    ],
+    "notFit": [
+      "Just browsing automation possibilities",
+      "No budget holder engaged",
+      "Optimizing for headcount reduction only"
+    ]
+  }
+]
