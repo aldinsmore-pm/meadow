@@ -53,3 +53,28 @@ input[type='search']::-webkit-search-results-decoration {
 .form-checkbox {
     @apply rounded-xs;
 }
+
+/* Workflow animation for hero background */
+@keyframes flow {
+  0%, 100% {
+    stroke-dashoffset: 0;
+    opacity: 0.4;
+  }
+  50% {
+    stroke-dashoffset: 100;
+    opacity: 0.8;
+  }
+}
+
+/* Hero gradient drift */
+@keyframes meadowBreeze {
+  0% {
+    transform: translate3d(-2%, 0%, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(2%, -2%, 0) scale(1.02);
+  }
+  100% {
+    transform: translate3d(-2%, 1%, 0) scale(0.99);
+  }
+}

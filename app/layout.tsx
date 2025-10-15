@@ -17,9 +17,9 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata = {
-  title: "Meadow | Get Your Evenings Back",
+  title: "Meadow | Stop Working Weekends, Start Scaling",
   description:
-    "Stop working until 9pm. Meadow partners with selective business owners to reclaim 10–20 hours every week through custom, done-with-you automations.",
+    "Selective partnerships for $2M-$20M businesses. We work alongside 15-20 owners per year to systematically automate workflows and reclaim 20+ hours weekly. 6-9 month engagements. ~30% acceptance rate.",
 };
 
 export default function RootLayout({
