@@ -4,7 +4,6 @@ import Link from "next/link";
 import founderImage from "@/public/images/founder-alejandro.jpg";
 
 import { Button } from "../ui/button";
-import { Chip } from "../ui/chip";
 
 export type HeroVariant = "A" | "B";
 
@@ -80,11 +79,6 @@ export function Hero({ variant = "A" }: HeroProps) {
             <Button asChild variant="secondary">
               <Link href="#fit">See if you’re a fit</Link>
             </Button>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            <Chip label="Selective partnerships" value="~30%" stamped tone="wheat" />
-            <Chip label="Embedded with operators" stamped tone="moss" />
-            <Chip label="ROI in months" value="12–18 mo compounding" tone="light" />
           </div>
         </div>
 
