@@ -6,7 +6,7 @@ interface ProcessSectionProps {
 
 export function ProcessSection({ steps }: ProcessSectionProps) {
   return (
-    <section className="space-y-4">
+    <section className="space-y-4" data-aos="fade-up" data-aos-delay="80">
       <div>
         <h2 className="text-3xl font-serif text-ink">How partnership unfolds</h2>
         <p className="mt-2 max-w-2xl text-slate-700">

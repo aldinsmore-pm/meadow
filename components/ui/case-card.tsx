@@ -22,7 +22,7 @@ export function CaseCard({
   dayToDay,
 }: CaseCardProps) {
   return (
-    <article className="rounded-2xl border border-slate-300 bg-white p-6 shadow-card">
+    <article className="flex h-full flex-col rounded-2xl border border-slate-300 bg-white p-6 shadow-card">
       <p className="text-lg italic leading-snug">“{quote}”</p>
       <div className="mt-3 text-sm text-slate-700">
         {client} · {duration} · {investment}

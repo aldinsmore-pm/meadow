@@ -21,7 +21,11 @@ export function MiniROI() {
   const yearOneRoi = investment > 0 ? (savePerMonth * 12 - investment) / investment : 0;
 
   return (
-    <div className="rounded-2xl border border-slate-300 bg-white p-5 shadow-card">
+    <div
+      className="rounded-2xl border border-slate-300 bg-white p-5 shadow-card"
+      data-aos="fade-up"
+      data-aos-delay="140"
+    >
       <div className="grid items-end gap-3 md:grid-cols-3">
         <label className="text-sm text-ink">
           Hours/week

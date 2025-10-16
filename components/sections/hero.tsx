@@ -12,6 +12,24 @@ interface HeroProps {
   variant?: HeroVariant;
 }
 
+const heroStats = [
+  {
+    label: "Active partners",
+    value: "17",
+    caption: "Founder-led each quarter to stay embedded with your team.",
+  },
+  {
+    label: "Time reclaimed",
+    value: "80 hrs/mo",
+    caption: "Average time we hand back across finance, ops, and revenue.",
+  },
+  {
+    label: "Breakeven window",
+    value: "6–9 mo",
+    caption: "Typical payback before compounding efficiencies kick in.",
+  },
+];
+
 const discoverySteps = [
   {
     step: "1",
@@ -49,7 +67,7 @@ export function Hero({ variant = "A" }: HeroProps) {
         <div className="absolute bottom-0 right-1/4 h-56 w-56 rounded-full bg-meadow-600/10 blur-3xl" />
       </div>
 
-      <div className="relative grid gap-10 lg:grid-cols-[1.1fr_0.95fr] lg:items-start">
+      <div className="relative grid gap-10 lg:grid-cols-[1.1fr_0.95fr] lg:items-start" data-aos="fade-up">
         <div className="space-y-6">
           <div className="space-y-4">
             <h1 className="font-serif text-5xl leading-tight text-ink md:text-6xl">{headline}</h1>
@@ -70,7 +88,11 @@ export function Hero({ variant = "A" }: HeroProps) {
           </div>
         </div>
 
-        <aside className="relative overflow-hidden rounded-2xl border border-slate-300/80 bg-white/90 shadow-card backdrop-blur">
+        <aside
+          className="relative overflow-hidden rounded-2xl border border-slate-300/80 bg-white/90 shadow-card backdrop-blur"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <div className="relative h-48 w-full md:h-56">
             <Image
               src={founderImage}
@@ -110,6 +132,19 @@ export function Hero({ variant = "A" }: HeroProps) {
             </p>
           </div>
         </aside>
+      </div>
+
+      <div className="relative mt-10 grid gap-4 md:grid-cols-3" data-aos="fade-up" data-aos-delay="150">
+        {heroStats.map((stat) => (
+          <div
+            key={stat.label}
+            className="rounded-2xl border border-slate-300/70 bg-white/85 p-5 shadow-card backdrop-blur"
+          >
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-700/70">{stat.label}</p>
+            <p className="mt-2 font-serif text-3xl text-ink">{stat.value}</p>
+            <p className="mt-2 text-sm text-slate-700/90">{stat.caption}</p>
+          </div>
+        ))}
       </div>
     </section>
   );

@@ -11,7 +11,11 @@ interface FitSectionProps {
 
 export function FitSection({ points }: FitSectionProps) {
   return (
-    <section className="space-y-6 rounded-2xl border border-slate-300 bg-white p-6 shadow-card">
+    <section
+      className="space-y-6 rounded-2xl border border-slate-300 bg-white p-6 shadow-card"
+      data-aos="fade-up"
+      data-aos-delay="120"
+    >
       <div>
         <h2 className="text-3xl font-serif text-ink">Are we a fit?</h2>
         <p className="mt-2 text-slate-700">

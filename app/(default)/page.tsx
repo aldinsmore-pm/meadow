@@ -1,16 +1,22 @@
 import casesData from "@/content/cases.json";
 import faqData from "@/content/faq.json";
+import resourcesData from "@/content/resources.json";
 import testimonialsData from "@/content/testimonials.json";
 
 import { ApplySection } from "@/components/sections/apply-section";
+import { ApproachHighlights } from "@/components/sections/approach-highlights";
 import { FAQSection } from "@/components/sections/faq-section";
 import { FitPoint, FitSection } from "@/components/sections/fit-section";
 import { Hero, HeroVariant } from "@/components/sections/hero";
+import { ChatCtaSection } from "@/components/sections/chat-cta-section";
 import { ProcessSection } from "@/components/sections/process-section";
+import { ResourcesSection } from "@/components/sections/resources-section";
 import { ResultsGrid } from "@/components/sections/results-grid";
+import { RoadmapSection } from "@/components/sections/roadmap-section";
 import { SummaryStat, SummaryStrip } from "@/components/sections/summary-strip";
 import { TestimonialsSection } from "@/components/sections/testimonials-section";
 import { ToolsSection } from "@/components/sections/tools-section";
+import { TrustSignals } from "@/components/sections/trust-signals";
 import { Step } from "@/components/ui/process-stepper";
 
 const summaryStats: SummaryStat[] = [
@@ -48,8 +54,10 @@ const heroVariant: HeroVariant =
 export default function Home() {
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-col gap-16 px-4 py-12 md:px-6">
-      <section id="approach">
+      <section id="approach" className="space-y-10">
         <Hero variant={heroVariant} />
+        <TrustSignals />
+        <ApproachHighlights />
       </section>
 
       <section id="results" className="space-y-10">
@@ -58,16 +66,19 @@ export default function Home() {
         <TestimonialsSection testimonials={testimonialsData} />
       </section>
 
-      <section id="fit">
+      <section id="fit" className="space-y-10">
         <FitSection points={fitPoints} />
       </section>
 
-      <section id="process">
+      <section id="process" className="space-y-10">
         <ProcessSection steps={steps} />
+        <RoadmapSection />
       </section>
 
-      <section id="tools">
+      <section id="tools" className="space-y-10">
         <ToolsSection />
+        <ChatCtaSection />
+        <ResourcesSection items={resourcesData} />
       </section>
 
       <section id="faq">

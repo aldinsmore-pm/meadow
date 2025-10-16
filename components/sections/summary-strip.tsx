@@ -12,7 +12,7 @@ interface SummaryStripProps {
 
 export function SummaryStrip({ stats }: SummaryStripProps) {
   return (
-    <section className="grid gap-4 md:grid-cols-3">
+    <section className="grid gap-4 md:grid-cols-3" data-aos="fade-up" data-aos-delay="80">
       {stats.map((stat) => (
         <StatBlock key={stat.caption} {...stat} />
       ))}
