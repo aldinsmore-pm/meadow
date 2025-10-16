@@ -61,13 +61,13 @@ export function Hero({ variant = "A" }: HeroProps) {
 
   return (
     <section className="surface relative overflow-hidden rounded-2xl border border-slate-300 bg-fog p-8 shadow-card md:p-12">
-      <div className="pointer-events-none absolute inset-0">
+      <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-br from-white/70 via-fog/50 to-wheat/30" />
         <div className="absolute -top-20 left-1/3 h-48 w-72 rounded-full bg-white/40 blur-3xl" />
         <div className="absolute bottom-0 right-1/4 h-56 w-56 rounded-full bg-meadow-600/10 blur-3xl" />
       </div>
 
-      <div className="relative grid gap-10 lg:grid-cols-[1.1fr_0.95fr] lg:items-start">
+      <div className="relative z-10 grid gap-10 lg:grid-cols-[1.1fr_0.95fr] lg:items-start">
         <div className="space-y-6" data-reveal data-reveal-delay="60" data-reveal-from="left">
           <div className="space-y-4">
             <h1 className="font-serif text-5xl leading-tight text-ink md:text-6xl">{headline}</h1>
@@ -135,7 +135,7 @@ export function Hero({ variant = "A" }: HeroProps) {
         </aside>
       </div>
 
-      <div className="relative mt-10 grid gap-4 md:grid-cols-3">
+      <div className="relative z-10 mt-10 grid gap-4 md:grid-cols-3">
         {heroStats.map((stat, index) => (
           <div
             key={stat.label}
