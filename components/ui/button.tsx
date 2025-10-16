@@ -19,7 +19,7 @@ export function Button({
   ...props
 }: ButtonProps) {
   const base =
-    "inline-flex items-center justify-center gap-2 rounded-xl border border-transparent font-semibold transition focus-ring transform disabled:cursor-not-allowed disabled:opacity-60";
+    "inline-flex items-center justify-center gap-2 rounded-xl font-semibold transition focus-ring transform disabled:cursor-not-allowed disabled:opacity-60";
   const sizes: Record<ButtonSize, string> = {
     sm: "px-3 py-2 text-sm",
     md: "px-5 py-3",
@@ -27,7 +27,7 @@ export function Button({
   };
   const variants: Record<ButtonVariant, string> = {
     primary:
-      "bg-meadow-600 text-white shadow-card hover:-translate-y-px focus-visible:-translate-y-px active:translate-y-0 active:shadow-press",
+      "border border-meadow-700/80 bg-gradient-to-r from-meadow-700 via-meadow-600 to-meadow-500 text-white shadow-[0_24px_48px_-28px_rgba(31,90,67,0.75)] drop-shadow-[0_2px_4px_rgba(0,0,0,0.35)] hover:-translate-y-px focus-visible:-translate-y-px active:translate-y-0 active:shadow-press",
     secondary:
       "bg-white/95 text-ink border border-slate-300/80 shadow-card hover:-translate-y-px focus-visible:-translate-y-px active:translate-y-0",
     "ghost-partner":
