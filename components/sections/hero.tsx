@@ -54,7 +54,7 @@ const founderQuote =
 export function Hero({ variant = "A" }: HeroProps) {
   const headline =
     variant === "A"
-      ? "Stop working until 9pm."
+      ? "Work Smarter. Not Harder"
       : "Free your evenings. Keep your margins.";
   const subheadline =
     "We embed with your operators for 6–9 months to eliminate the 15+ hours/week that steal your nights.";
