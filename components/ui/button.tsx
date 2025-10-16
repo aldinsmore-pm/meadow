@@ -27,7 +27,7 @@ export function Button({
   };
   const variants: Record<ButtonVariant, string> = {
     primary:
-      "border border-meadow-700/35 bg-meadow-600 text-white shadow-glow hover:bg-meadow-700 focus-visible:bg-meadow-700 hover:-translate-y-px focus-visible:-translate-y-px active:translate-y-0 active:shadow-press",
+      "border border-ember/35 bg-gradient-to-r from-ember to-gold text-ink shadow-glow hover:from-ember/90 hover:to-gold/90 focus-visible:from-ember/90 focus-visible:to-gold/90 hover:-translate-y-px focus-visible:-translate-y-px active:translate-y-0 active:shadow-press",
     secondary:
       "bg-white/95 text-ink border border-slate-300/80 shadow-card hover:-translate-y-px focus-visible:-translate-y-px active:translate-y-0",
     "ghost-partner":
