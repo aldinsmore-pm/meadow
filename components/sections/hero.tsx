@@ -82,9 +82,9 @@ export function Hero({ variant = "A" }: HeroProps) {
             </Button>
           </div>
           <div className="flex flex-wrap gap-3">
-            <Chip label="Selective partnerships" value="~30%" stamped />
-            <Chip label="Embedded with operators" stamped />
-            <Chip label="ROI in months" value="12–18 mo compounding" />
+            <Chip label="Selective partnerships" value="~30%" stamped tone="wheat" />
+            <Chip label="Embedded with operators" stamped tone="moss" />
+            <Chip label="ROI in months" value="12–18 mo compounding" tone="light" />
           </div>
         </div>
 

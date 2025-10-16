@@ -48,18 +48,29 @@ export function RoadmapSection() {
 
       <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
         <ol className="space-y-4">
-          {roadmapMoments.map((moment, index) => (
-            <li
-              key={moment.title}
-              className="rounded-2xl border border-slate-300 bg-white/90 p-6 shadow-card backdrop-blur"
-              data-reveal
-              data-reveal-delay={140 + index * 80}
-            >
-              <Chip label={moment.note} stamped />
-              <h4 className="mt-3 font-serif text-lg text-ink">{moment.title}</h4>
-              <p className="mt-2 text-sm text-slate-700/90">{moment.description}</p>
-            </li>
-          ))}
+          {roadmapMoments.map((moment, index) => {
+            const cardVariants = [
+              "border-slate-300/80 bg-white/95 shadow-card",
+              "border-ember/25 bg-parchment/90 shadow-ledger",
+              "border-transparent bg-dusk/90 text-linen shadow-night",
+            ];
+            const palette = cardVariants[index % cardVariants.length];
+            const descriptionClass = palette.includes("bg-dusk") ? "text-linen/80" : "text-slate-700/90";
+            const chipTone = index === 1 ? "moss" : index === 2 ? "night" : "wheat";
+
+            return (
+              <li
+                key={moment.title}
+                className={`rounded-2xl border p-6 backdrop-blur ${palette}`}
+                data-reveal
+                data-reveal-delay={140 + index * 80}
+              >
+                <Chip label={moment.note} stamped tone={chipTone} />
+                <h4 className="mt-3 font-serif text-lg">{moment.title}</h4>
+                <p className={`mt-2 text-sm ${descriptionClass}`}>{moment.description}</p>
+              </li>
+            );
+          })}
         </ol>
 
         <div className="space-y-4" data-reveal data-reveal-delay="220" data-reveal-from="right">
