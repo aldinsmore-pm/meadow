@@ -6,9 +6,9 @@ interface ResultsGridProps {
 
 export function ResultsGrid({ cases }: ResultsGridProps) {
   return (
-    <section className="grid gap-6 md:grid-cols-2" data-aos="fade-up" data-aos-delay="120">
+    <section className="grid gap-6 md:grid-cols-2" data-reveal>
       {cases.map((caseStudy, index) => (
-        <div key={caseStudy.client} className="h-full" data-aos="fade-up" data-aos-delay={140 + index * 40}>
+        <div key={caseStudy.client} className="h-full" data-reveal data-reveal-delay={140 + index * 80}>
           <CaseCard {...caseStudy} />
         </div>
       ))}

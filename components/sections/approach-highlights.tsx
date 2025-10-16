@@ -21,11 +21,13 @@ const approachHighlights = [
 
 export function ApproachHighlights() {
   return (
-    <section className="grid gap-4 md:grid-cols-3" data-aos="fade-up" data-aos-delay="180">
-      {approachHighlights.map((highlight) => (
+    <section className="grid gap-4 md:grid-cols-3" data-reveal data-reveal-delay="120">
+      {approachHighlights.map((highlight, index) => (
         <article
           key={highlight.title}
           className="flex h-full flex-col gap-3 rounded-2xl border border-slate-300 bg-white/90 p-6 shadow-card backdrop-blur"
+          data-reveal
+          data-reveal-delay={160 + index * 80}
         >
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-meadow-700/80">{highlight.receipt}</p>
           <h3 className="font-serif text-xl text-ink">{highlight.title}</h3>

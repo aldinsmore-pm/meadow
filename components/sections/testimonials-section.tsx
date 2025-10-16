@@ -15,7 +15,7 @@ interface TestimonialsSectionProps {
 
 export function TestimonialsSection({ testimonials }: TestimonialsSectionProps) {
   return (
-    <section className="space-y-6" data-aos="fade-up" data-aos-delay="160">
+    <section className="space-y-6" data-reveal data-reveal-delay="120">
       <div>
         <h2 className="text-3xl font-serif text-ink">Owners on Meadow</h2>
         <p className="mt-2 max-w-2xl text-slate-700">
@@ -27,8 +27,8 @@ export function TestimonialsSection({ testimonials }: TestimonialsSectionProps) 
           <figure
             key={testimonial.name}
             className="rounded-2xl border border-slate-300 bg-white p-6 shadow-card"
-            data-aos="fade-up"
-            data-aos-delay={200 + index * 40}
+            data-reveal
+            data-reveal-delay={200 + index * 80}
           >
             <blockquote className="text-lg italic leading-snug text-ink">“{testimonial.quote}”</blockquote>
             <figcaption className="mt-4 space-y-2 text-sm text-slate-700">

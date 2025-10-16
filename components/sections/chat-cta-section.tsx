@@ -17,11 +17,7 @@ const prompts = [
 
 export function ChatCtaSection() {
   return (
-    <section
-      className="rounded-2xl border border-slate-300 bg-white/95 p-8 shadow-card"
-      data-aos="fade-up"
-      data-aos-delay="160"
-    >
+    <section className="rounded-2xl border border-slate-300 bg-white/95 p-8 shadow-card" data-reveal data-reveal-delay="140">
       <div className="grid gap-8 lg:grid-cols-[1fr_1.1fr] lg:items-center">
         <div className="space-y-4">
           <h3 className="font-serif text-2xl text-ink md:text-3xl">Prefer to explore before scheduling?</h3>
@@ -37,10 +33,13 @@ export function ChatCtaSection() {
         </div>
 
         <div className="space-y-4">
-          {prompts.map((prompt) => (
+          {prompts.map((prompt, index) => (
             <div
               key={prompt.title}
               className="rounded-2xl border border-slate-300/80 bg-fog/80 p-5 shadow-card backdrop-blur"
+              data-reveal
+              data-reveal-delay={200 + index * 80}
+              data-reveal-from="right"
             >
               <div className="flex items-start justify-between gap-4">
                 <div>

@@ -9,11 +9,7 @@ const trustNotes = [
 
 export function TrustSignals() {
   return (
-    <section
-      className="rounded-2xl border border-slate-300 bg-white/95 p-8 shadow-card"
-      data-aos="fade-up"
-      data-aos-delay="120"
-    >
+    <section className="rounded-2xl border border-slate-300 bg-white/95 p-8 shadow-card" data-reveal data-reveal-delay="100">
       <div className="text-center md:text-left">
         <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-700/70">
           Selective partnerships
@@ -25,10 +21,12 @@ export function TrustSignals() {
       </div>
 
       <ul className="mt-8 grid gap-3 md:grid-cols-2">
-        {trustNotes.map((note) => (
+        {trustNotes.map((note, index) => (
           <li
             key={note}
             className="flex items-start gap-3 rounded-xl border border-slate-300/70 bg-fog/70 p-4 text-sm text-slate-700"
+            data-reveal
+            data-reveal-delay={180 + index * 40}
           >
             <span className="mt-0.5 inline-flex h-6 w-6 flex-none items-center justify-center rounded-full bg-meadow-600/10 font-serif text-sm font-semibold text-meadow-700">
               ✓

@@ -67,8 +67,8 @@ export function Hero({ variant = "A" }: HeroProps) {
         <div className="absolute bottom-0 right-1/4 h-56 w-56 rounded-full bg-meadow-600/10 blur-3xl" />
       </div>
 
-      <div className="relative grid gap-10 lg:grid-cols-[1.1fr_0.95fr] lg:items-start" data-aos="fade-up">
-        <div className="space-y-6">
+      <div className="relative grid gap-10 lg:grid-cols-[1.1fr_0.95fr] lg:items-start">
+        <div className="space-y-6" data-reveal data-reveal-delay="60" data-reveal-from="left">
           <div className="space-y-4">
             <h1 className="font-serif text-5xl leading-tight text-ink md:text-6xl">{headline}</h1>
             <p className="max-w-2xl text-lg text-slate-700">{subheadline}</p>
@@ -90,8 +90,9 @@ export function Hero({ variant = "A" }: HeroProps) {
 
         <aside
           className="relative overflow-hidden rounded-2xl border border-slate-300/80 bg-white/90 shadow-card backdrop-blur"
-          data-aos="fade-up"
-          data-aos-delay="100"
+          data-reveal
+          data-reveal-delay="140"
+          data-reveal-from="right"
         >
           <div className="relative h-48 w-full md:h-56">
             <Image
@@ -134,11 +135,13 @@ export function Hero({ variant = "A" }: HeroProps) {
         </aside>
       </div>
 
-      <div className="relative mt-10 grid gap-4 md:grid-cols-3" data-aos="fade-up" data-aos-delay="150">
-        {heroStats.map((stat) => (
+      <div className="relative mt-10 grid gap-4 md:grid-cols-3">
+        {heroStats.map((stat, index) => (
           <div
             key={stat.label}
             className="rounded-2xl border border-slate-300/70 bg-white/85 p-5 shadow-card backdrop-blur"
+            data-reveal
+            data-reveal-delay={180 + index * 80}
           >
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-700/70">{stat.label}</p>
             <p className="mt-2 font-serif text-3xl text-ink">{stat.value}</p>

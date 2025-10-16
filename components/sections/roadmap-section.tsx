@@ -38,7 +38,7 @@ const roadmapDeliverables = [
 
 export function RoadmapSection() {
   return (
-    <section className="space-y-8" data-aos="fade-up" data-aos-delay="120">
+    <section className="space-y-8" data-reveal data-reveal-delay="80">
       <div>
         <h3 className="font-serif text-2xl text-ink md:text-3xl">What our 90-minute discovery covers</h3>
         <p className="mt-2 max-w-2xl text-sm text-slate-700">
@@ -48,10 +48,12 @@ export function RoadmapSection() {
 
       <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
         <ol className="space-y-4">
-          {roadmapMoments.map((moment) => (
+          {roadmapMoments.map((moment, index) => (
             <li
               key={moment.title}
               className="rounded-2xl border border-slate-300 bg-white/90 p-6 shadow-card backdrop-blur"
+              data-reveal
+              data-reveal-delay={140 + index * 80}
             >
               <Chip label={moment.note} stamped />
               <h4 className="mt-3 font-serif text-lg text-ink">{moment.title}</h4>
@@ -60,22 +62,24 @@ export function RoadmapSection() {
           ))}
         </ol>
 
-        <div className="space-y-4">
+        <div className="space-y-4" data-reveal data-reveal-delay="220" data-reveal-from="right">
           <div className="rounded-2xl border border-slate-300 bg-fog/80 p-6 shadow-card">
             <h4 className="font-serif text-lg text-ink">You’ll walk away with</h4>
-            <ul className="mt-4 space-y-4 text-sm text-slate-700/90">
-              {roadmapDeliverables.map((item) => (
-                <li
-                  key={item.label}
-                  className="rounded-xl border border-slate-300/70 bg-white/80 p-4 shadow-card backdrop-blur"
-                >
+              <ul className="mt-4 space-y-4 text-sm text-slate-700/90">
+                {roadmapDeliverables.map((item, index) => (
+                  <li
+                    key={item.label}
+                    className="rounded-xl border border-slate-300/70 bg-white/80 p-4 shadow-card backdrop-blur"
+                    data-reveal
+                    data-reveal-delay={260 + index * 80}
+                  >
                   <p className="font-semibold text-ink">{item.label}</p>
                   <p className="mt-1 text-xs text-slate-700/80">{item.detail}</p>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="rounded-2xl border border-slate-300/80 bg-white/90 p-6 shadow-card">
+          <div className="rounded-2xl border border-slate-300/80 bg-white/90 p-6 shadow-card" data-reveal data-reveal-delay="320">
             <h4 className="font-serif text-lg text-ink">Want us ready beforehand?</h4>
             <p className="mt-2 text-sm text-slate-700/90">
               Send us SOPs, Looms, or spreadsheets before we meet. We’ll digest them so we can dive straight into modeling automations.

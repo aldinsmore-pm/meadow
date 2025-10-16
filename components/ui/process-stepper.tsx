@@ -13,8 +13,8 @@ export function ProcessStepper({ steps }: ProcessStepperProps) {
         <li
           key={step.title}
           className="rounded-2xl border border-slate-300 bg-white p-5 shadow-card"
-          data-aos="fade-up"
-          data-aos-delay={120 + index * 60}
+          data-reveal
+          data-reveal-delay={120 + index * 80}
         >
           <div className="text-5xl font-serif leading-none text-meadow-700">{index + 1}</div>
           <h3 className="mt-2 text-lg font-semibold text-ink">{step.title}</h3>

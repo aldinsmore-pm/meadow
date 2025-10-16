@@ -11,11 +11,7 @@ interface FitSectionProps {
 
 export function FitSection({ points }: FitSectionProps) {
   return (
-    <section
-      className="space-y-6 rounded-2xl border border-slate-300 bg-white p-6 shadow-card"
-      data-aos="fade-up"
-      data-aos-delay="120"
-    >
+    <section className="space-y-6 rounded-2xl border border-slate-300 bg-white p-6 shadow-card" data-reveal data-reveal-delay="120">
       <div>
         <h2 className="text-3xl font-serif text-ink">Are we a fit?</h2>
         <p className="mt-2 text-slate-700">
@@ -28,8 +24,13 @@ export function FitSection({ points }: FitSectionProps) {
         <Chip label="ROI window" value="12–18 months" />
       </div>
       <ul className="grid gap-4 md:grid-cols-3">
-        {points.map((point) => (
-          <li key={point.title} className="rounded-xl border border-slate-300/70 bg-fog/70 p-4">
+        {points.map((point, index) => (
+          <li
+            key={point.title}
+            className="rounded-xl border border-slate-300/70 bg-fog/70 p-4"
+            data-reveal
+            data-reveal-delay={180 + index * 80}
+          >
             <h3 className="font-semibold text-ink">{point.title}</h3>
             <p className="mt-2 text-sm text-slate-700">{point.description}</p>
           </li>

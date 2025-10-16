@@ -23,8 +23,8 @@ export function MiniROI() {
   return (
     <div
       className="rounded-2xl border border-slate-300 bg-white p-5 shadow-card"
-      data-aos="fade-up"
-      data-aos-delay="140"
+      data-reveal
+      data-reveal-delay="140"
     >
       <div className="grid items-end gap-3 md:grid-cols-3">
         <label className="text-sm text-ink">

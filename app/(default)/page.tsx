@@ -53,7 +53,7 @@ const heroVariant: HeroVariant =
 
 export default function Home() {
   return (
-    <main className="mx-auto flex w-full max-w-6xl flex-col gap-16 px-4 py-12 md:px-6">
+    <main className="mx-auto flex w-full max-w-6xl flex-col gap-16 px-4 py-12 md:px-6 lg:gap-20 lg:py-20">
       <section id="approach" className="space-y-10">
         <Hero variant={heroVariant} />
         <TrustSignals />

@@ -6,7 +6,7 @@ interface FAQSectionProps {
 
 export function FAQSection({ items }: FAQSectionProps) {
   return (
-    <section className="space-y-6" data-aos="fade-up" data-aos-delay="100">
+    <section className="space-y-6" data-reveal data-reveal-delay="80">
       <div>
         <h2 className="text-3xl font-serif text-ink">Frequently asked</h2>
         <p className="mt-2 max-w-2xl text-slate-700">

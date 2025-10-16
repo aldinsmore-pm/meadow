@@ -2,7 +2,9 @@ import "./css/style.css";
 
 import { Fraunces, IBM_Plex_Mono, Inter } from "next/font/google";
 
+import Footer from "@/components/ui/footer";
 import Header from "@/components/ui/header";
+import { RevealProvider } from "@/components/ui/reveal-provider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -39,9 +41,11 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${fraunces.variable} ${plexMono.variable} bg-fog font-sans text-base text-ink antialiased`}
       >
+        <RevealProvider />
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
-          {children}
+          <div className="flex-1">{children}</div>
+          <Footer />
         </div>
       </body>
     </html>

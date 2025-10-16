@@ -12,7 +12,7 @@ interface ResourcesSectionProps {
 
 export function ResourcesSection({ items }: ResourcesSectionProps) {
   return (
-    <section className="rounded-2xl border border-slate-300 bg-white/95 p-8 shadow-card" data-aos="fade-up" data-aos-delay="200">
+    <section className="rounded-2xl border border-slate-300 bg-white/95 p-8 shadow-card" data-reveal data-reveal-delay="200">
       <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
         <div className="space-y-4">
           <h3 className="font-serif text-2xl text-ink md:text-3xl">Not ready to apply yet?</h3>
@@ -28,10 +28,12 @@ export function ResourcesSection({ items }: ResourcesSectionProps) {
         </div>
 
         <div className="grid gap-4">
-          {items.map((item) => (
+          {items.map((item, index) => (
             <article
               key={item.title}
               className="rounded-2xl border border-slate-300/70 bg-fog/80 p-5 shadow-card backdrop-blur"
+              data-reveal
+              data-reveal-delay={240 + index * 80}
             >
               <span className="inline-flex w-fit items-center rounded-full border border-slate-300/70 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-meadow-700">
                 {item.badge}
