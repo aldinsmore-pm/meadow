@@ -4,7 +4,6 @@ import Link from "next/link";
 import founderImage from "@/public/images/founder-alejandro.jpg";
 
 import { Button } from "../ui/button";
-import { Chip } from "../ui/chip";
 
 export type HeroVariant = "A" | "B";
 
@@ -51,6 +50,12 @@ const discoverySteps = [
 const founderQuote =
   "After burning out twice as a founder, I built Meadow so owners can reclaim their evenings. We cap partnerships each year so I can stay directly involved.";
 
+const onboardingHighlights = [
+  "45-minute working session with Alejandro and our lead automation architect.",
+  "ROI and ops impact model delivered within three business days.",
+  "We only extend proposals when payback inside nine months is realistic.",
+];
+
 export function Hero({ variant = "A" }: HeroProps) {
   const headline =
     variant === "A"
@@ -68,7 +73,7 @@ export function Hero({ variant = "A" }: HeroProps) {
       </div>
 
       <div className="relative z-10 grid gap-10 lg:grid-cols-[1.1fr_0.95fr] lg:items-start">
-        <div className="space-y-6" data-reveal data-reveal-delay="60" data-reveal-from="left">
+        <div className="space-y-7" data-reveal data-reveal-delay="60" data-reveal-from="left">
           <div className="space-y-4">
             <h1 className="font-serif text-5xl leading-tight text-ink md:text-6xl">{headline}</h1>
             <p className="max-w-2xl text-lg text-slate-700">{subheadline}</p>
@@ -81,10 +86,28 @@ export function Hero({ variant = "A" }: HeroProps) {
               <Link href="#fit">See if you’re a fit</Link>
             </Button>
           </div>
-          <div className="flex flex-wrap gap-3">
-            <Chip label="Selective partnerships" value="~30%" stamped tone="wheat" />
-            <Chip label="Embedded with operators" stamped tone="moss" />
-            <Chip label="ROI in months" value="12–18 mo compounding" tone="light" />
+          <div className="rounded-2xl border border-meadow-600/35 bg-tide/85 p-5 shadow-card">
+            <div className="flex flex-wrap items-start justify-between gap-4">
+              <div className="max-w-xs space-y-1">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-meadow-700/80">Current intake</p>
+                <p className="text-base font-semibold text-ink">Dec 1–20 onboarding window</p>
+                <p className="text-sm text-slate-700/90">
+                  Reserve a working session to map the first 30 days and confirm the ROI case before we start.
+                </p>
+              </div>
+              <div className="rounded-xl border border-meadow-600/30 bg-meadow-600/10 px-3 py-2 text-right">
+                <p className="text-sm font-semibold text-meadow-700">2 seats open</p>
+                <p className="text-[11px] text-meadow-700/80">Updated this morning</p>
+              </div>
+            </div>
+            <ul className="mt-4 space-y-2 text-sm text-slate-700/90">
+              {onboardingHighlights.map((highlight) => (
+                <li key={highlight} className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-meadow-600" />
+                  <span>{highlight}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 
