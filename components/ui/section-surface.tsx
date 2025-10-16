@@ -2,7 +2,7 @@ import * as React from "react";
 
 type SectionSurfaceVariant = "grain" | "ledger" | "aurora" | "night" | "strata";
 
-type ElementTag = keyof JSX.IntrinsicElements;
+type ElementTag = keyof HTMLElementTagNameMap;
 
 interface SectionSurfaceProps extends React.HTMLAttributes<HTMLElement> {
   as?: ElementTag;
