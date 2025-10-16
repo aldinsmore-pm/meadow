@@ -86,7 +86,7 @@ export function Hero({ variant = "A" }: HeroProps) {
               <Link href="#fit">See if you’re a fit</Link>
             </Button>
           </div>
-          <div className="rounded-2xl border border-meadow-600/25 bg-white/85 p-5 shadow-card backdrop-blur">
+          <div className="rounded-2xl border border-meadow-600/30 bg-gradient-to-br from-tide/70 via-white/95 to-white p-5 shadow-card">
             <div className="flex flex-wrap items-start justify-between gap-4">
               <div className="max-w-xs space-y-1">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-meadow-700/80">Current intake</p>
