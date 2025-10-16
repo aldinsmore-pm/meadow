@@ -90,7 +90,7 @@ export function Hero({ variant = "A" }: HeroProps) {
             <div className="flex flex-wrap items-start justify-between gap-4">
               <div className="max-w-xs space-y-1">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-meadow-700/80">Current intake</p>
-                <p className="text-base font-semibold text-ink">June 10–28 onboarding window</p>
+                <p className="text-base font-semibold text-ink">Dec 1–20 onboarding window</p>
                 <p className="text-sm text-slate-700/90">
                   Reserve a working session to map the first 30 days and confirm the ROI case before we start.
                 </p>
